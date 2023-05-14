@@ -1,0 +1,12 @@
+ /* slides automatico */
+ .mySlides {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.mySlides :hover {
+    cursor: pointer;
+
+}
