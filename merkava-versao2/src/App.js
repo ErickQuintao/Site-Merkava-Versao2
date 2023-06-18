@@ -1,12 +1,15 @@
+import React from 'react';
+import Header from './components/header/header';
+import Banner from './components/banner/banner';
+import Slider from './components/slider-product/slider';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import Home from './Home';
+
 function App() {
   return (
-    
     <div className="App">
-    <Home/>
-
+      <Header/>
+      <Banner/>
+      <Slider/>
     </div>
   );
 }
