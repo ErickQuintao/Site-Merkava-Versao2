@@ -1,5 +1,13 @@
-@import './header.scss';
-@import './variavel.scss';
-@import './banner.scss';
-@import './slider.scss';
-@import './produtocampeao.scss';
+@import './principal/header.scss';
+@import './principal/variavel.scss';
+@import './principal/banner.scss';
+@import './principal/slider.scss';
+@import './principal/produtocampeao.scss';
+@import './principal/depoimento.scss';
+@import './principal/caracteristicas.scss'; 
+@import './principal/sobrenos.scss';
+@import './principal/rodape.scss';
+
+body{
+    overflow-x: hidden;
+}

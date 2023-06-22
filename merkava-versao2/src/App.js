@@ -1,17 +1,25 @@
 import React from 'react';
-import Header from './components/header/header';
-import Banner from './components/banner/banner';
-import Slider from './components/slider-product/slider';
-import ProdutoCampeao from './components/produtoCampeao/ProdutoCampeao';
+import {
+  BrowserRouter,
+  Link,
+  Route,
+  Routes,
+} from "react-router-dom";
 
 import './App.css';
+import Home from './routes/Home';
+import NossoProduto from './routes/NossoProduto';
 function App() {
+
   return (
     <div className="App">
-      <Header/>
-      <Banner/>
-      <Slider/>
-      <ProdutoCampeao/>
+         <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/NossoProduto" element={<NossoProduto />} />
+      </Routes>
+    </BrowserRouter>
+      
     </div>
   );
 }

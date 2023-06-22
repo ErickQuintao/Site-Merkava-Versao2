@@ -1,0 +1,50 @@
+
+
+.caracteristicas-empresa{
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+    bottom: 3%;
+	div{
+        position: relative;
+        width: 100%;
+        height: 400PX;
+        
+    }
+}
+.imgC {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	left: 1%;
+	border-radius: 30%;
+	top: 10px;
+}
+
+.divC{
+	width: 230px;
+	height: 230px;
+	border: 1px solid  whitesmoke;
+}
+#titleC{
+	position: relative;
+	left: 10px !important;
+	top: 20px;
+
+}
+#titleA{
+	position: relative;
+	left: 4px;
+	top: 20px;
+}
+#pc{
+	position: relative;
+	width: 80%;
+	margin-left: 10%;
+	top: 40px;
+	font-size: 28px;
+}

@@ -4,6 +4,20 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import  {createBrowserRouter, RouterProvider} from "react-router-dom";
+import Home from './routes/Home';
+import NossoProduto from './routes/NossoProduto';
+const router= createBrowserRouter([
+  {
+    path: "/",
+    element: <Home/>
+  },
+  {
+    path:"NossoProduto",
+    element: <NossoProduto/>
+  },
+])
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>

@@ -245,6 +245,7 @@
   position: relative;
   top: 10px;
   margin-bottom: 100px;
+  left: 7%;
 }
 
 .flicking-panel {
@@ -265,7 +266,6 @@
 
 .btn-more-products {
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
-  left: 4%;
   padding: 10px;
   width: 150px;
   text-transform: capitalize;
@@ -274,7 +274,7 @@
   transition: 0.5s;
   cursor: pointer;
   font-size: 20px;
-  background: red;
+  background: green;
   color: white;
   text-decoration: none;
   position: relative;
@@ -289,19 +289,21 @@
 
 .best-selling {
   width: 100%;
-  height: 700px;
+  height: 550px;
   background: whitesmoke;
   border: 1px solid lightgray;
 }
 
 .img-best-selling {
+  position: relative;
   width: 500px;
   margin-left: 90px;
-  height: 400px;
+  height: 420px;
+  bottom: 10%;
 }
 
 .titleP-best-selling {
-  margin-top: 40px;
+  margin-top: 30px;
   margin-bottom: 50px;
   display: flex;
   justify-content: center;
@@ -314,8 +316,8 @@
 
 .title-best-selling {
   position: relative;
-  left: 50%;
-  bottom: 57%;
+  left: 22%;
+  bottom: 36%;
   font-weight: 700;
 }
 
@@ -324,14 +326,14 @@
   width: 600px;
   height: 300px;
   left: 50%;
-  bottom: 54%;
+  bottom: 34%;
 }
 
 .btn-best-selling {
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
   position: relative;
-  left: 40%;
-  bottom: 44%;
+  left: 22%;
+  bottom: 57%;
   margin: auto;
   padding: 10px;
   width: 25%;
@@ -341,16 +343,16 @@
   transition: 0.5s;
   cursor: pointer;
   font-size: 20px;
-  background: red;
+  background: green;
   color: white !important;
+  text-decoration: none;
 }
-
 .btn-best-selling span:hover {
   position: relative;
   color: white !important;
   text-decoration: none;
+  bottom: 10px;
 }
-
 .btn-best-selling:hover {
   padding-top: 20px;
   padding-bottom: 5px;
@@ -359,13 +361,310 @@
   color: white !important;
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
 }
-
-.btn-best-selling span:hover {
-  bottom: 10px;
+.btn-best-selling:hover:active {
+  outline: none;
 }
 
-.btn-best-selling:active {
-  outline: none;
+.depoimentos {
+  margin-top: 70px;
+  width: 100%;
+  height: 500px;
+}
+
+.title-depoimentos {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  font-size: 35px;
+  height: 60px;
+  left: 30%;
+  width: 100%;
+  margin-right: 20%;
+}
+
+.container-dep {
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: -20%;
+  width: 100%;
+  height: 600px;
+  flex-direction: row;
+  left: 15%;
+}
+
+.video {
+  width: 390px;
+  height: 340px;
+  padding: 20px;
+  box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.2), 5px 0px 5px rgba(0, 0, 0, 0.2), 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.video:hover {
+  transform: translateY(-10px);
+  box-shadow: -10px 10px 5px rgba(0, 0, 0, 0.2);
+}
+.video video {
+  margin-left: 2px;
+  width: 333px;
+  height: 187px;
+}
+
+.video2 {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+
+.caracteristicas-empresa {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 2%;
+  bottom: 3%;
+}
+.caracteristicas-empresa div {
+  position: relative;
+  width: 100%;
+  height: 400PX;
+}
+
+.imgC {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  left: 1%;
+  border-radius: 30%;
+  top: 10px;
+}
+
+.divC {
+  width: 230px;
+  height: 230px;
+  border: 1px solid whitesmoke;
+}
+
+#titleC {
+  position: relative;
+  left: 10px !important;
+  top: 20px;
+}
+
+#titleA {
+  position: relative;
+  left: 4px;
+  top: 20px;
+}
+
+#pc {
+  position: relative;
+  width: 80%;
+  margin-left: 10%;
+  top: 40px;
+  font-size: 28px;
+}
+
+.sobrenos {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  height: 480px;
+  width: 100% !important;
+}
+
+.titleS {
+  color: white;
+}
+
+.btn-fim {
+  position: relative;
+  left: 80px;
+  bottom: 60px;
+  font-size: 20px;
+  color: white;
+  border: none;
+  background: black;
+}
+
+.imgs-fim {
+  position: relative;
+  top: 80%;
+  width: 60px;
+  height: 60px;
+}
+
+.icons-fim {
+  width: 20px;
+  height: 20px;
+}
+
+.fim-one {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  left: 55%;
+  bottom: 440px;
+}
+
+.fim-two {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  left: 55%;
+  bottom: 420px;
+}
+
+.fim-three {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  left: 55%;
+  bottom: 400px;
+}
+
+.fim-four {
+  position: relative;
+  width: 300px;
+  height: 100px;
+  left: 55%;
+  bottom: 380px;
+}
+
+.gvtnine {
+  position: absolute;
+  left: 60%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.gvtseven {
+  position: absolute;
+  left: 60%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.gvtthree {
+  position: absolute;
+  left: 60%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.of-btn {
+  position: absolute;
+  left: 60%;
+  width: 100%;
+  top: 100%;
+  color: white;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+}
+
+.titleS2 {
+  position: relative;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  left: 25%;
+  bottom: 420px;
+  font-size: 25px;
+}
+
+.titleS1 {
+  position: relative;
+  height: 50px;
+  color: white;
+  font-size: 20px;
+  top: 40px;
+  right: 32%;
+  margin-left: 22%;
+  font-size: 25px;
+}
+
+.pS {
+  margin-top: 70px;
+  position: relative;
+  width: 50%;
+  margin-left: 20px;
+  color: white;
+  font-size: 20px;
+}
+
+.icon-fim {
+  position: relative;
+  max-width: 32px;
+  max-height: 32px;
+}
+
+.fac {
+  left: 40px;
+  background: white;
+  border: none;
+  border-radius: 100px;
+  background-color: #3b5998;
+}
+
+.ins {
+  left: 100px;
+  bottom: 32px;
+  background-color: white;
+  border-radius: 100px;
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+}
+
+.you {
+  left: 160px;
+  bottom: 65px;
+  background-color: white;
+  border-radius: 50%;
+  background-color: #FF0000;
+}
+
+.iconS {
+  position: relative;
+  width: 40px;
+  height: 40px;
+}
+
+.rodape {
+  height: 70px;
+  background: green;
+}
+
+.p-rod {
+  position: relative;
+  top: 40%;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
