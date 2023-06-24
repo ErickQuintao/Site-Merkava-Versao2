@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../css/style.css';
-import video1 from '../../video/video1.mp4';
-import video2 from '../../video/video2.mp4';
-import video3 from '../../video/video3.mp4';
+import '../../../css/style.css';
+import video1 from '../../../video/video1.mp4';
+import video2 from '../../../video/video2.mp4';
+import video3 from '../../../video/video3.mp4';
 
 function Depoimento (){
     return(

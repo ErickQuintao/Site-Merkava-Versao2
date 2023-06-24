@@ -1,12 +1,12 @@
 import React from 'react';
-import '../../css/style.css';
-import facebook from  '../../fotos/facebook.png';
-import insta from '../../fotos/instagram.png';
-import you from '../../fotos/youtube.png';
-import imgCf9 from '../../fotos/cf-9gvt.jpg';
-import imgCf7 from '../../fotos/cf-7gvt.jpeg';
-import  ofm  from "../../fotos/OfM.jpeg";
-import cf3gvt from '../../fotos/cf-3-gvt.jpeg';
+import '../../../css/style.css';
+import facebook from  '../../../fotos/facebook.png';
+import insta from '../../../fotos/instagram.png';
+import you from '../../../fotos/youtube.png';
+import imgCf9 from '../../../fotos/cf-9gvt.jpg';
+import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
+import  ofm  from "../../../fotos/OfM.jpeg";
+import cf3gvt from '../../../fotos/cf-3-gvt.jpeg';
 
 function Sobrenos (){
     return(

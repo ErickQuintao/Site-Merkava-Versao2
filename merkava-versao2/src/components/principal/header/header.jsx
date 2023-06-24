@@ -1,21 +1,20 @@
 import React from 'react';
-import '../../css/style.css'
+import '../../../css/style.css'
 import { exibirPesq, ocultarPesq, filtrarItens } from './pesquisa'; // Import the necessary functions from './pesquisa' file
-import imgFace from '../../fotos/facebook.png';
-import imgInsta from '../../fotos/instagram.png';
-import imgYou from '../../fotos/youtube.png';
-import imgPesq from '../../fotos/pesquisa.png';
-import imgCf5 from '../../fotos/cf-5gvt.jpeg';
-import imgCf7 from '../../fotos/cf-7gvt.jpeg';
-import imgCf9 from '../../fotos/cf-9gvt.jpg';
-import B900mm4gvt from '../../fotos/Bancada-900mm-4gvt.png';
-import carf3gvt from '../../fotos/carf-3gvt.jpg';
-import caa1gvt from "../../fotos/CAA-1gvt.jpeg";
-import ca3gvt from "../../fotos/ca-3gvts.jpeg";
-import capcs from "../../fotos/capcs(2).jpeg";
-import m3gvt from "../../fotos/m-3gvt.jpeg";
-import  ofm  from "../../fotos/OfM.jpeg";
-
+import imgFace from '../../../fotos/facebook.png';
+import imgInsta from '../../../fotos/instagram.png';
+import imgYou from '../../../fotos/youtube.png';
+import imgPesq from '../../../fotos/pesquisa.png';
+import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
+import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
+import imgCf9 from '../../../fotos/cf-9gvt.jpg';
+import B900mm4gvt from '../../../fotos/Bancada-900mm-4gvt.png';
+import carf3gvt from '../../../fotos/carf-3gvt.jpg';
+import caa1gvt from "../../../fotos/CAA-1gvt.jpeg";
+import ca3gvt from "../../../fotos/ca-3gvts.jpeg";
+import capcs from "../../../fotos/capcs(2).jpeg";
+import m3gvt from "../../../fotos/m-3gvt.jpeg";
+import  ofm  from "../../../fotos/OfM.jpeg";
 
 function Header() {
     return(
@@ -29,9 +28,11 @@ function Header() {
           </div>
           <header id="header">
             <a href="./index.html"><img src="https://merkavaferramentas.com.br/wp-content/uploads/2022/07/200x34.png" id="IconEmpresa" alt="Logo" /></a>
-            <a style={{ textDecoration: 'none' }} id="Home" href="./index.html">HOME</a>
-            <a style={{ textDecoration: 'none' }} href="./nossosProdutos.html" id="Hprod">NOSSOS PRODUTOS</a>
-            <a style={{ textDecoration: 'none' }} href="./faleConosco.html" id="HprodF">FALE CONOSCO</a>
+          
+            <a  href={`/`} style={{ textDecoration: 'none' }} id="Home" >HOME</a>
+
+          <a href={`/NossoProduto`} style={{ textDecoration: 'none' }} id="Hprod">NOSSOS PRODUTOS</a> 
+            <a href={`/FaleConosco`} style={{ textDecoration: 'none' }} id="HprodF">FALE CONOSCO</a>
             <a style={{ textDecoration: 'none' }} href="./" id="Hpes">
               <img className="img-pesq4" src={imgPesq} alt="Pesquisa" onMouseOver={exibirPesq} />
             </a>

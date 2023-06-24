@@ -1,0 +1,49 @@
+@import '../principal/variavel.scss';
+.sidebar{
+	height: 400px;
+	width: 40%;
+	position: absolute;
+	top: 40%;
+	
+}
+.h2-cat{
+	position: relative;
+	color: black;
+	left: -28%;
+	top: -1%;
+	font-weight: 700;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	text-decoration: none;
+}
+.catpro{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	left: 30px;
+	width: 230px;
+	margin-top: 10px;
+	top:2%;
+	text-decoration: none;
+	color: $color-secondary;
+	font-size: 20px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+    &:hover{
+        color: $color-primary;
+        font-size: 25px;
+        width:  300px;
+    }
+}
+
+
+.linha1{
+	position:absolute;
+    width: 40%;
+    height: 2px;
+    background-color: lightgray;
+    top: 17%;
+    left: 6%;
+
+	margin-top: 10px;
+}

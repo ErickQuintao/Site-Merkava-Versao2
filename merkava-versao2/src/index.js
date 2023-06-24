@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import * as ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -7,21 +7,35 @@ import reportWebVitals from './reportWebVitals';
 import  {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from './routes/Home';
 import NossoProduto from './routes/NossoProduto';
+import ErrorPage from "./routes/ErrorPage";
+import FaleConosco from './routes/FaleConosco';
 const router= createBrowserRouter([
   {
     path: "/",
-    element: <Home/>
-  },
-  {
-    path:"NossoProduto",
-    element: <NossoProduto/>
+    element: <App/>,
+    children : [
+      {
+            path:"/",
+            element: <Home/>,
+            errorElement: <ErrorPage />
+          },
+          {
+          path:"/NossoProduto",
+          element: <NossoProduto/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/FaleConosco",
+          element: <FaleConosco/>,
+          errorElement: <ErrorPage />
+        },
+    ],
   },
 ])
-
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

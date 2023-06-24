@@ -1,12 +1,12 @@
 import React from'react';
-import '../../css/style.css';
-import c9gvt1 from '../../fotos/cf-9gvt.jpg';
-import c9gvt2 from '../../fotos/c-9gvt (2).jpeg';
-import c9gvt3 from '../../fotos/c-9gvt(3.jpeg';
-import cf3gvt from '../../fotos/cf-3-gvt.jpeg';
-import imgCf5 from '../../fotos/cf-5gvt.jpeg';
-import imgCf7 from '../../fotos/cf-7gvt.jpeg';
-import c7gvtVideo from '../../fotos/video-7gvt.mp4';
+import '../../../css/style.css';
+import c9gvt1 from '../../../fotos/cf-9gvt.jpg';
+import c9gvt2 from '../../../fotos/c-9gvt (2).jpeg';
+import c9gvt3 from '../../../fotos/c-9gvt(3.jpeg';
+import cf3gvt from '../../../fotos/cf-3-gvt.jpeg';
+import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
+import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
+import c7gvtVideo from '../../../fotos/video-7gvt.mp4';
 
 
 
@@ -80,7 +80,7 @@ export default () => {
       </div>
     </Flicking>
     </div>
-    <a href="" className="btn-more-products"><span >Mais Produtos</span></a>
+    <a href={`/NossoProduto`}  className="btn-more-products"><span >Mais Produtos</span></a>
   </>
 };
 

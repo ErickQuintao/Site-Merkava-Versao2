@@ -1,6 +1,6 @@
 import React from 'react';
-import '../../css/style.css';
-import cVermelho from '../../fotos/caixaVermelho3.jpeg';
+import '../../../css/style.css';
+import cVermelho from '../../../fotos/caixaVermelho3.jpeg';
 function ProdutoCampeao(){
 return(
 

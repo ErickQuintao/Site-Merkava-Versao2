@@ -1,0 +1,45 @@
+@import '../principal/variavel.scss';
+.order{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	width: 70%;
+	margin-left: 25%;
+	top: 50%;
+	img{
+        width: 280px !important;
+        height: 280px !important;
+        margin-right: 20px;
+    }
+    video{
+        width: 280px;
+        height: 280px;
+        margin-right: 20px;
+    }
+    div{
+        bottom: 20%;
+        margin-left: 3%;
+    }
+}
+h3{
+    position: relative;
+	font-size: 10px;
+	margin-left: 10px;
+	font-family: "Segoe UI";
+	font-weight: 700;
+	color: gray;
+    bottom: 45%;
+}
+.a{
+    position: relative;
+	margin-bottom: 10px;
+	text-decoration: none;
+	 color: $color-secondary;
+	 font-family: "Segoe UI";
+	 font-weight: 700;
+     font-size: 16PX;
+	 &hover{
+        color: $color-primary;
+    }
+    bottom: 45%;
+}

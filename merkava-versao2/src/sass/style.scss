@@ -7,7 +7,10 @@
 @import './principal/caracteristicas.scss'; 
 @import './principal/sobrenos.scss';
 @import './principal/rodape.scss';
-
+@import './nossoproduto/navegacao.scss';
+@import './nossoproduto/sidebar.scss';
+@import './nossoproduto/produtos.scss';
+@import './nossoproduto/espaco.scss';
 body{
     overflow-x: hidden;
 }

@@ -1,8 +1,8 @@
 import React from 'react';
-import '../../css/style.css';
-import visao from '../../fotos/visao.png';
-import missao from '../../fotos/missao.png';
-import valores from '../../fotos/valores.png';
+import '../../../css/style.css';
+import visao from '../../../fotos/visao.png';
+import missao from '../../../fotos/missao.png';
+import valores from '../../../fotos/valores.png';
 function Caracteristicas(){
     return(
 

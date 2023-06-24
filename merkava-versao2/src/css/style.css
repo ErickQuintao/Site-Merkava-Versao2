@@ -30,11 +30,11 @@
   border: white 2px solid;
   border-radius: 15px;
   background: white;
+  background-color: #3b5998;
 }
 .icon-fac:hover {
-  background: blue;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon-you {
@@ -46,11 +46,11 @@
   border: white 2px solid;
   border-radius: 15px;
   background: white;
+  background-color: #FF0000;
 }
 .icon-you:hover {
-  background: red;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 .icon-ins {
@@ -62,11 +62,11 @@
   border: white 2px solid;
   border-radius: 15px;
   background: white;
+  background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
 }
 .icon-ins:hover {
-  background: blue;
-  width: 28px;
-  height: 28px;
+  width: 30px;
+  height: 30px;
 }
 
 /* header */
@@ -103,9 +103,6 @@
   font-weight: 700;
   font-size: 15px;
   top: -70px;
-  color: gray;
-}
-#HprodF:hover {
   color: black;
 }
 
@@ -115,9 +112,6 @@
   font-weight: 700;
   font-size: 15px;
   top: -70px;
-  color: gray;
-}
-#Hprod:hover {
   color: black;
 }
 
@@ -661,6 +655,148 @@
   justify-content: center;
   color: white;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+#barra1 {
+  position: relative;
+  bottom: 75px t;
+  position: relative;
+  left: 210px;
+  color: white;
+  width: 10px;
+  height: 10px;
+}
+
+.catalogo {
+  z-index: 10;
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background: green;
+  top: 10px;
+}
+
+.cat-ini {
+  position: relative;
+  color: white;
+  margin-left: 40px;
+  top: 30px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  text-decoration: none;
+  right: 700px;
+}
+
+.cat-cat {
+  position: relative;
+  color: white;
+  margin-left: 80px;
+  top: -27px;
+  left: -600px;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  text-decoration: none;
+}
+
+.sidebar {
+  height: 400px;
+  width: 40%;
+  position: absolute;
+  top: 40%;
+}
+
+.h2-cat {
+  position: relative;
+  color: black;
+  left: -28%;
+  top: -1%;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  text-decoration: none;
+}
+
+.catpro {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  left: 30px;
+  width: 230px;
+  margin-top: 10px;
+  top: 2%;
+  text-decoration: none;
+  color: #228B22;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+}
+.catpro:hover {
+  color: green;
+  font-size: 25px;
+  width: 300px;
+}
+
+.linha1 {
+  position: absolute;
+  width: 40%;
+  height: 2px;
+  background-color: lightgray;
+  top: 17%;
+  left: 6%;
+  margin-top: 10px;
+}
+
+.order {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 70%;
+  margin-left: 25%;
+  top: 50%;
+}
+.order img {
+  width: 280px !important;
+  height: 280px !important;
+  margin-right: 20px;
+}
+.order video {
+  width: 280px;
+  height: 280px;
+  margin-right: 20px;
+}
+.order div {
+  bottom: 20%;
+  margin-left: 3%;
+}
+
+h3 {
+  position: relative;
+  font-size: 10px;
+  margin-left: 10px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  color: gray;
+  bottom: 45%;
+}
+
+.a {
+  position: relative;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #228B22;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  font-size: 16PX;
+  bottom: 45%;
+}
+.ahover {
+  color: green;
+}
+
+.espaco {
+  height: 560px;
 }
 
 body {

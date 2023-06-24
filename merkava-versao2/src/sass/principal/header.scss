@@ -28,10 +28,10 @@
 	border: white 2px solid;
 	border-radius: 15px;
 	background: white;
+	background-color: #3b5998;
 	&:hover{
-	background: blue;
-	width: 28px;
-	height: 28px;
+	width: 30px;
+	height: 30px;
 	}
 }
 
@@ -44,10 +44,10 @@
 	border: white 2px solid;
 	border-radius: 15px;
 	background: white;
+	background-color: #FF0000;
 	&:hover{
-		background: red;
-		width: 28px;
-		height: 28px;
+		width: 30px;
+		height: 30px;
 	}
 }
 
@@ -60,12 +60,11 @@
 	border: white 2px solid;
 	border-radius: 15px;
 	background: white;
+	background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,
+	#E1306C,#FD1D1D);
 	&:hover{
-  background: blue;
-  width: 28px;
-  height: 28px;
- 
-
+  width: 30px;
+  height: 30px;
 	}
 }
 
@@ -106,10 +105,7 @@
 	font-weight: 700;
 	font-size: 15px;
 	top: -70px;
-	color: gray;
-	&:hover{
 		color: black;
-	}
 }
 
 #Hprod{
@@ -118,10 +114,7 @@
 	font-weight: 700;
 	font-size: 15px;
 	top: -70px;
-	color: gray;
-	&:hover{
 		color: black;
-	}
 }
 #Home{
 	position: relative;

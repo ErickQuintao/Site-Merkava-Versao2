@@ -1,10 +1,11 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../css/style.css';
+import '../../../css/style.css';
 
-import imgBanner from '../../fotos/Banner.png';
-import imgBanner1 from '../../fotos/Banner_Carrinho2.png';
+
+import imgBanner from '../../../fotos/Banner.png';
+import imgBanner1 from '../../../fotos/Banner_Carrinho2.png';
 
 function Banner() {
   return (
