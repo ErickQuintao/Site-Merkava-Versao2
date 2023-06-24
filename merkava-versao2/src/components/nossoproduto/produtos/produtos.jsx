@@ -23,7 +23,7 @@ export default () => {
     <img className="img  flicking-panel" src={imgCf5}/>
     </Flicking> 
     <h3 id="h">CAIXA SANFONADA</h3>
-    <a className="a" href="">
+    <a className="a" href={`/CaixaFerramenta5gvt`}>
         Caixa de Ferramentas 5 GVT
     </a>
  </div>

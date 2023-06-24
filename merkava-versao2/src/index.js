@@ -8,7 +8,8 @@ import  {createBrowserRouter, RouterProvider} from "react-router-dom";
 import Home from './routes/Home';
 import NossoProduto from './routes/NossoProduto';
 import ErrorPage from "./routes/ErrorPage";
-import FaleConosco from './routes/FaleConosco';
+import CaixaFerramenta5gvt from "./routes/CaixaFerramenta5gvt";
+
 const router= createBrowserRouter([
   {
     path: "/",
@@ -25,8 +26,8 @@ const router= createBrowserRouter([
           errorElement: <ErrorPage />
         },
         {
-          path:"/FaleConosco",
-          element: <FaleConosco/>,
+          path:"/CaixaFerramenta5gvt",
+          element: <CaixaFerramenta5gvt/>,
           errorElement: <ErrorPage />
         },
     ],

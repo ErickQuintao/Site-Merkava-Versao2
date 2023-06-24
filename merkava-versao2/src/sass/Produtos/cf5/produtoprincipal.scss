@@ -1,0 +1,95 @@
+.produto-principal{
+    width: 100%;
+    height: 700px;
+}
+#barra{
+	position: relative;
+	left: 120px;
+	color: white;
+}
+#barra1{
+    position: relative;
+	left: 260px;
+    bottom: 33px;
+	color: white;
+}
+.imgp{
+    position: relative;
+    margin-left: 10px;
+    width: 60%;
+    top: 110px;
+    height: 600px;
+    right: 330px;
+}
+
+.prod-h1{
+    position: relative;
+    left: 520px;
+    bottom: 500px;
+    font-weight: 700;
+	font-size: 35px;
+	font-family: "Segoe UI";
+    color: rgb(131, 128, 128);
+}
+#txt-cf5{
+    position: absolute;
+    width: 36%;
+    bottom: 60px;
+    left: 1050px;
+    font-size: 20px;
+    font-family: "Segoe UI";
+    font-weight: 500;
+}
+label{
+    position: relative;
+    left: 500px;
+    top: -50px;
+    font-size: 20px;
+}
+select{
+    position: relative;
+    left: 530px;
+    top: -50px;
+    width: 330px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+}
+.whatsapp{
+	position: relative;
+	height: 70px;
+	width: 250px;
+	left: 1220px;
+	top:-20px;
+	border-radius: 10px;
+	background-color: gray;
+	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
+}
+.whatsapp:hover{
+	
+	background-color: orangered;
+	bottom: 10px;
+}
+.p-what{
+	position: relative;
+ bottom: 30px;
+ left: 30px;
+ color: white;
+ font-family: "Segoe UI";
+}
+.what{
+    
+    text-decoration: none;
+    color: gray;
+    font-size: 25px;
+    font-family: "Segoe UI";
+}
+.what img{
+	position: relative;
+	top: 12px;
+	left: -90px;
+    width: 45px;
+    height: 45px;
+	
+}
