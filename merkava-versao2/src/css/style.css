@@ -893,6 +893,138 @@ select {
   height: 45px;
 }
 
+.produto-infor {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  top: 40px;
+}
+
+.infad {
+  position: relative;
+  left: -585px;
+  bottom: 39px;
+  text-decoration: none;
+  color: GRAY;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  border: none;
+  background: white;
+}
+
+.des {
+  position: relative;
+  left: -760px;
+  top: -12px;
+  text-decoration: none;
+  color: gray;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  border: none;
+  background: white;
+}
+
+.linha2 {
+  display: none;
+  position: relative;
+  width: 90px;
+  background-color: #228B22;
+  height: 3px;
+  left: 20px;
+  bottom: 16px;
+}
+
+.linha3 {
+  display: none;
+  position: relative;
+  width: 205px;
+  background-color: #228B22;
+  height: 4px;
+  left: 140px;
+  bottom: 45PX;
+}
+
+.pri1 {
+  display: block;
+}
+.pri1:hover .linha2 {
+  display: block;
+}
+.pri1:hover .des {
+  color: black;
+}
+
+.pri2:hover {
+  display: block;
+}
+.pri2:hover:hover .infad {
+  color: black;
+}
+.pri2:hover:hover .linha3 {
+  display: block;
+}
+
+.descricao1 {
+  position: relative;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  right: 530px;
+}
+
+.informacao {
+  display: none;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: "Segoe UI";
+}
+
+li {
+  list-style: none;
+}
+
+.linha4 {
+  position: relative;
+  width: 97%;
+  background-color: whitesmoke;
+  height: 2px;
+  bottom: 17PX;
+}
+
+.linha5 {
+  position: relative;
+  width: 97%;
+  background-color: whitesmoke;
+  height: 2px;
+  bottom: -27PX;
+}
+
+.linha6 {
+  position: relative;
+  width: 97%;
+  background-color: whitesmoke;
+  height: 2px;
+  bottom: 35PX;
+}
+
+#compri {
+  position: relative;
+  left: 60px;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  top: 35px;
+}
+
+#cm {
+  position: relative;
+  left: 1000px;
+  font-size: 20px;
+  font-family: "Segoe UI";
+  font-weight: 700;
+  bottom: 13px;
+}
+
 body {
   overflow-x: hidden;
 }
