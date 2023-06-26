@@ -10,6 +10,9 @@ import NossoProduto from './routes/NossoProduto';
 import ErrorPage from "./routes/ErrorPage";
 import CaixaFerramenta5gvt from "./routes/CaixaFerramenta5gvt";
 import CaixaFerramenta3gvt from "./routes/CaixaFerramenta3gvt";
+import CaixaFerramenta7gvt from "./routes/CaixaFerramenta7gvt";
+import CaixaFerramenta9gvt from "./routes/CaixaFerramenta9gvt";
+
 
 const router= createBrowserRouter([
   {
@@ -34,6 +37,16 @@ const router= createBrowserRouter([
         {
           path:"/CaixaFerramenta3gvt",
           element: <CaixaFerramenta3gvt/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/CaixaFerramenta7gvt",
+          element: <CaixaFerramenta7gvt/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/CaixaFerramenta9gvt",
+          element: <CaixaFerramenta9gvt/>,
           errorElement: <ErrorPage />
         },
     ],

@@ -40,7 +40,7 @@ export default () => {
     </video>
   </Flicking> 
     <h3 id="h">CAIXA SANFONADA</h3>
-    <a className="a" href="">
+    <a className="a" href={`/CaixaFerramenta7gvt`}>
         Caixa de Ferramentas 7 GVT
     </a>
  </div>
@@ -54,7 +54,7 @@ export default () => {
     <img className="img img4 flicking-panel" src={c9gvt3}/>
   </Flicking>
     <h3 id="h">CAIXA SANFONADA</h3>
-    <a className="a" href="">
+    <a className="a" href={`/CaixaFerramenta9gvt`}>
         Caixa de Ferramentas 9 GVT 
     </a>
 </div>
@@ -66,7 +66,7 @@ export default () => {
     <img className="img img5" src={cf3gvt}/>
 </Flicking>
     <h3 id="h">CAIXA SANFONADA</h3>
-    <a className="a a30" href="">
+    <a className="a a30" href={`/CaixaFerramenta3gvt`}>
     Caixa de Ferramentas Sanfonada <br/> 3 Gavetas
     </a>
 </div>

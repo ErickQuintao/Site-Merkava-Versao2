@@ -5,7 +5,7 @@ import insta from '../../../fotos/instagram.png';
 import you from '../../../fotos/youtube.png';
 import imgCf9 from '../../../fotos/cf-9gvt.jpg';
 import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
-import  ofm  from "../../../fotos/OfM.jpeg";
+import  imgCf5  from "../../../fotos/cf-5gvt.jpeg";
 import cf3gvt from '../../../fotos/cf-3-gvt.jpeg';
 
 function Sobrenos (){
@@ -28,19 +28,19 @@ function Sobrenos (){
     <div className="fim-one">
         <img className="imgs-fim" src={imgCf9} />
         
-        <a href="" className=" gvtnine">Caixa de Ferramentas 9 GVT</a>
+        <a href={`/CaixaFerramenta9gvt`} className=" gvtnine">Caixa de Ferramentas 9 GVT</a>
     </div>
     <div className="fim-two">
-        <img className="imgs-fim" src={ofm} />
-        <a href="" className=" of-btn">Oficina Móvel</a>
+        <img className="imgs-fim" src={ imgCf5 } />
+        <a href={`/CaixaFerramenta5gvt`} className=" of-btn">Caixa de Ferramenta 5 GVT</a>
     </div>
    <div className="fim-three">
     <img className="imgs-fim " src={imgCf7} />
-    <a href="" className="gvtseven">Caixa de Ferramentas 7 GVT</a>
+    <a href={`/CaixaFerramenta7gvt`} className="gvtseven">Caixa de Ferramentas 7 GVT</a>
    </div>
    <div className="fim-four">
     <img className="imgs-fim" src={cf3gvt} />
-    <a href="" className="gvtthree">Caixa de Ferramentas Sanfonada 3 Gavetas</a>
+    <a href={`/CaixaFerramenta3gvt`} className="gvtthree">Caixa de Ferramentas Sanfonada 3 Gavetas</a>
    </div>
   
 </div>

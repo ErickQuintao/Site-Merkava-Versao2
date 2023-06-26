@@ -23,7 +23,7 @@ export default () => {
     align= {"prev"}  >
     
       <div className="flicking-panel nested-wide vertical">
-      <a href="" className="card-btn">
+      <a href={`/CaixaFerramenta3gvt`} className="card-btn">
       <Flicking className="Item"  bounce="0" bound={true}  autoResize={true}  nested={true}>
       
           <div className="flicking-panel">    
@@ -37,7 +37,7 @@ export default () => {
       </div>
 
       <div className="flicking-panel nested-wide vertical">
-      <a href="" className="card-btn">
+      <a href={`/CaixaFerramenta5gvt`} className="card-btn">
       <Flicking autoResize={true}  className="Item" bounce="1" bound={true} nested={true}>
       
           <div className="flicking-panel"><img className="imgProduct item current-item"  src={imgCf5} >
@@ -48,7 +48,7 @@ export default () => {
         </a>
       </div>
       <div className="flicking-panel nested-wide vertical">
-      <a href="" className="card-btn">
+      <a href={`/CaixaFerramenta7gvt`} className="card-btn">
       <Flicking autoResize={true}  className="Item" bounce="2" bound={true} nested={true}>
      
           <div className="flicking-panel"> 
@@ -67,7 +67,7 @@ export default () => {
         </a>
       </div>
       <div className="flicking-panel nested-wide vertical">
-      <a href="" className="card-btn">
+      <a href={`/CaixaFerramenta9gvt`} className="card-btn">
         
       <Flicking  autoResize={true}  className="Item" bounce="3" bound={true} nested={true}>
       

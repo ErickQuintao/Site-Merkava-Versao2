@@ -1,11 +1,12 @@
 import React from 'react';
-import ProdutoPrincipal from '../components/produtos/cf3/ProdutoPrincipal'
+import '.././css/style.css';
+import ProdutoPrincipal from '../components/produtos/cf9/ProdutoPrincipal'
 import Header from '../components/principal/header/header';
 import Navegacao from '../components/nossoproduto/nav/navegação';
-import ProdutoInfo from '../components/produtos/cf3/ProdutoInfo.jsx';
+import ProdutoInfo from '../components/produtos/cf9/ProdutoInfo.jsx';
 import Info from '../components/principal/info/info';
 
-function CaixaFerramenta3gvt(){
+function CaixaFerramenta9gvt(){
     return(
         <div className="">
             <Header/>
@@ -16,4 +17,4 @@ function CaixaFerramenta3gvt(){
         </div>
     )
 }
-export default CaixaFerramenta3gvt;
+export default CaixaFerramenta9gvt;
