@@ -9,6 +9,7 @@ import Home from './routes/Home';
 import NossoProduto from './routes/NossoProduto';
 import ErrorPage from "./routes/ErrorPage";
 import CaixaFerramenta5gvt from "./routes/CaixaFerramenta5gvt";
+import CaixaFerramenta3gvt from "./routes/CaixaFerramenta3gvt";
 
 const router= createBrowserRouter([
   {
@@ -28,6 +29,11 @@ const router= createBrowserRouter([
         {
           path:"/CaixaFerramenta5gvt",
           element: <CaixaFerramenta5gvt/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/CaixaFerramenta3gvt",
+          element: <CaixaFerramenta3gvt/>,
           errorElement: <ErrorPage />
         },
     ],

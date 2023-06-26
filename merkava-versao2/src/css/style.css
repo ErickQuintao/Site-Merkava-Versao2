@@ -973,10 +973,15 @@ select {
 }
 
 .informacao {
-  display: none;
+  position: relative;
   margin-left: 40px;
   font-size: 20px;
   font-family: "Segoe UI";
+  right: 780px;
+}
+
+.hidden {
+  display: none;
 }
 
 li {
