@@ -809,11 +809,38 @@ h3 {
 
 .imgp {
   position: relative;
-  margin-left: 10px;
-  width: 60%;
-  top: 110px;
-  height: 600px;
-  right: 330px;
+  width: 70%;
+  height: 680px;
+  left: 120px;
+  top: 10px;
+}
+
+.carousel div {
+  width: 600px;
+  height: 800px;
+}
+
+.btn-slider {
+  position: relative;
+  bottom: 450px;
+  left: 100px;
+  width: 30px;
+  border-radius: 10px;
+  background: transparent;
+  border: none;
+}
+
+.btn-slider img {
+  height: 100px;
+}
+
+.btn-left {
+  position: relative;
+  left: -450px;
+}
+
+.btn-right {
+  left: 170px;
 }
 
 .prod-h1 {
@@ -866,7 +893,7 @@ select {
 }
 
 .whatsapp:hover {
-  background-color: orangered;
+  background-color: #228B22;
   bottom: 10px;
 }
 
@@ -895,9 +922,9 @@ select {
 
 .produto-infor {
   position: relative;
-  height: 500px;
+  height: 600px;
   width: 100%;
-  top: 40px;
+  top: 200px;
 }
 
 .infad {
@@ -910,6 +937,11 @@ select {
   font-weight: 700;
   border: none;
   background: white;
+}
+
+.linha1 {
+  top: 88px;
+  left: 30px;
 }
 
 .des {

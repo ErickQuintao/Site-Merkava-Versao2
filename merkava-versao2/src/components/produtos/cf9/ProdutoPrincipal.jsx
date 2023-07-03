@@ -5,16 +5,53 @@ import img1Cf9 from '../../../fotos/cf-gvt9.jpg';
 import img2Cf9 from '../../../fotos/c-9gvt (2).jpeg';
 import img3Cf9 from '../../../fotos/c-9gvt(3.jpeg';
 import img4Cf9 from '../../../fotos/c-9gvt.jpeg';
-
 import whatsButton from "../../../fotos/whatsapp.png";
-import ImgsSlider from "../imgsSlider";
-
+import {
+  ButtonBack,
+  ButtonNext,
+  CarouselProvider,
+  ImageWithZoom,
+  Slide,
+  Slider,
+}  from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+import back from '../../../fotos/back.png';
+import forward from '../../../fotos/forward.png';
 function ProdutoPrincipal(){
     return(
         <div class="produto-principal">
-            <ImgsSlider className="imgp" img0={img0Cf9} img1={img1Cf9}
-             img2={img2Cf9}  img3={img3Cf9} img4={img4Cf9}/>
-       
+             <div  className="imgp">
+  <CarouselProvider className="imgp"
+  
+      infinite
+    visibleSlides={1}
+    totalSlides={5}
+  >
+    <Slider  
+    >
+      <Slide index={0}>
+        <ImageWithZoom className="imgSlider" src={img0Cf9} />
+      </Slide>
+      <Slide index={1}>
+        <ImageWithZoom className="imgSlider" src={img1Cf9} />
+      </Slide>
+      <Slide index={2}>
+        <ImageWithZoom className="imgSlider" src={img2Cf9} />
+      </Slide>
+      <Slide index={3}>
+        <ImageWithZoom className="imgSlider" src={img3Cf9} />
+      </Slide>
+      <Slide index={4}>
+        <ImageWithZoom className="imgSlider" src={img4Cf9} />
+      
+      </Slide>
+     
+    </Slider>
+    <ButtonBack className="btn-slider btn-left" ><img src={back}/></ButtonBack>
+    <ButtonNext className="btn-slider btn-right" ><img src={forward}/></ButtonNext>
+
+  </CarouselProvider>
+  </div>
         <h1 class="prod-h1">Caixa de Ferramentas 9 GVT</h1>
         
         <p id="txt-cf5">É uma ferramenta com durabilidade por mais de 10 ANOS <br/>
@@ -35,7 +72,7 @@ function ProdutoPrincipal(){
                 ><img src={whatsButton}/> 
                 <p class="p-what">Fazer orçamento</p> </a>    
             </div>
-           
+          
         </div>
     )
 }

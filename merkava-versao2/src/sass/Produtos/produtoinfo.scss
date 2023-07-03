@@ -1,9 +1,9 @@
 @import '.././principal/variavel.scss';
 .produto-infor{
 	position: relative;
-	height: 500px;
+	height: 600px;
 	width: 100%;
-	top: 40px;
+	top: 200px;
 }
 .infad{
 	position: relative;
@@ -15,6 +15,10 @@
 	font-weight: 700;
 	border: none;
 	background: white;
+}
+.linha1{
+	top: 88px;
+left: 30px;
 }
 .des{
 	position: relative;
