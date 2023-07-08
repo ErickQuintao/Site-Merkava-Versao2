@@ -3,9 +3,12 @@ import '../../../css/style.css';
 import c9gvt1 from '../../../fotos/cf-9gvt.jpg';
 import c9gvt2 from '../../../fotos/c-9gvt (2).jpeg';
 import c9gvt3 from '../../../fotos/c-9gvt(3.jpeg';
-import cf3gvt from '../../../fotos/cf-3-gvt.jpeg';
+import cf3gvt from '../../../fotos/Bancada-900mm-4gvt.png';
 import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
 import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
+import img1Cf5 from '../../../fotos/cf5-2.jpeg';
+import img2Cf5 from '../../../fotos/cf5-3.jpeg';
+import img3Cf5 from '../../../fotos/cf5-4.jpeg';
 import c7gvtVideo from '../../../fotos/video-7gvt.mp4';
 
 
@@ -19,12 +22,10 @@ export default () => {
 
   return <>
   <div className="container">
-    <Flicking inputType={["touch", "mouse"]} autoResize={true} 
-    align= {"prev"}  >
-    
       <div className="flicking-panel nested-wide vertical">
       <a href={`/CaixaFerramenta3gvt`} className="card-btn">
-      <Flicking className="Item"  bounce="0" bound={true}  autoResize={true}  nested={true}>
+      <Flicking inputType={["touch", "mouse"]} 
+    align= {"prev"}  className="Item"  bounce="0" bound={true}  autoResize={true}  nested={true}>
       
           <div className="flicking-panel">    
           <img className="imgProduct item current-item"  src={cf3gvt} >
@@ -38,9 +39,16 @@ export default () => {
 
       <div className="flicking-panel nested-wide vertical">
       <a href={`/CaixaFerramenta5gvt`} className="card-btn">
-      <Flicking autoResize={true}  className="Item" bounce="1" bound={true} nested={true}>
+      <Flicking inputType={["touch", "mouse"]} 
+    align= {"prev"} autoResize={true}  className="Item" bounce="1" bound={true} nested={true}>
       
           <div className="flicking-panel"><img className="imgProduct item current-item"  src={imgCf5} >
+            </img> </div>
+            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img1Cf5} >
+            </img> </div>
+            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img2Cf5} >
+            </img> </div>
+            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img3Cf5} >
             </img> </div>
           <div className="flicking-panel  title-special">Caixa de Ferramenta 5 gaveta</div>
          
@@ -49,7 +57,8 @@ export default () => {
       </div>
       <div className="flicking-panel nested-wide vertical">
       <a href={`/CaixaFerramenta7gvt`} className="card-btn">
-      <Flicking autoResize={true}  className="Item" bounce="2" bound={true} nested={true}>
+      <Flicking inputType={["touch", "mouse"]} 
+    align= {"prev"} autoResize={true}  className="Item" bounce="2" bound={true} nested={true}>
      
           <div className="flicking-panel"> 
           <img className="imgProduct item current-item"  src={imgCf7} ></img>
@@ -69,7 +78,8 @@ export default () => {
       <div className="flicking-panel nested-wide vertical">
       <a href={`/CaixaFerramenta9gvt`} className="card-btn">
         
-      <Flicking  autoResize={true}  className="Item" bounce="3" bound={true} nested={true}>
+      <Flicking inputType={["touch", "mouse"]} 
+    align= {"prev"} autoResize={true}  className="Item" bounce="3" bound={true} nested={true}>
       
           <div className="flicking-panel"> <img className="imgProduct item current-item "  src={c9gvt1} ></img> </div>
           <div className="flicking-panel"><img className="imgProduct item current-item "  src={c9gvt2} ></img> </div>
@@ -78,7 +88,6 @@ export default () => {
         </Flicking>
         </a>
       </div>
-    </Flicking>
     </div>
     <a href={`/NossoProduto`}  className="btn-more-products"><span >Mais Produtos</span></a>
   </>

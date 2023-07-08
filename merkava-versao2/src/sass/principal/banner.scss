@@ -1,8 +1,18 @@
-.mySlides {
-    position: relative;
-  top: 10px;
+.mySlides{
+position: relative;
+  top: 20px;
+ margin: auto;
+ width: 100%;
+ left: 1px;
+ &:hover {
+  cursor: pointer;
 }
-.mySlides :hover {
-    cursor: pointer;
-
+}
+.carousel-inner div{
+  width: 100%;
+}
+@media (min-width:270px) and  (max-width: 550px){
+.mySlides{
+  top: 40px;
+}
 }

@@ -4,7 +4,7 @@ import Sobrenos from './sobrenos';
 import Rodape from './rodape';
 function Info (){
     return(
-        <div className="">
+        <div>
         <Sobrenos/>
         <Rodape/>
         </div>

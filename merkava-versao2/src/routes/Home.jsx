@@ -7,6 +7,7 @@ import ProdutoCampeao from '../components/principal/produtoCampeao/produtoCampea
 import Depoimento from '../components/principal/depoimento/depoimento';
 import Caracteristicas from '../components/principal/caracteristicas/caracteristica';
 import Info from '../components/principal/info/info';
+import Whatsapp from '../components/whatsapp/Whatsapp';
 
 function Home (){
     return(
@@ -18,6 +19,7 @@ function Home (){
       <Depoimento/>
       <Caracteristicas/>
       <Info/>
+      <Whatsapp/>
       </div>
     )
 

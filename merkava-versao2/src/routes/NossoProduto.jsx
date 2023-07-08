@@ -5,7 +5,8 @@ import Info from '.././components/principal/info/info';
 import Navegacao from '../components/nossoproduto/nav/navegação';
 import SideBar from '../components/nossoproduto/sidebar/SideBar';
 import Produtos from '../components/nossoproduto/produtos/produtos';
-import Espaco from '../components/espaco'
+import Espaco from '../components/espaco';
+import Whatsapp from '../components/whatsapp/Whatsapp';
 function NossoProduto (){
 
 return(
@@ -17,7 +18,7 @@ return(
         <Produtos/>
         <Espaco/>
         <Info/>
-     
+        <Whatsapp/>
    </div>
 )
 }

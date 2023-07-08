@@ -2,7 +2,7 @@
 .header-princip{
 	width: 100%;
 	position: relative;
-	height: 80px;
+	height: 90px;
     top: 110px;
 }
 .divulgacao{
@@ -96,7 +96,7 @@
 	left: 34%;
 	width: 25px;
 	height: 25px;
-	top: -70px;
+	top: -72px;
 	
 }
 #HprodF{
@@ -104,7 +104,7 @@
 	left: 33%;
 	font-weight: 700;
 	font-size: 15px;
-	top: -72px;
+	top: -62px;
 		color: black;
 }
 
@@ -113,7 +113,7 @@
 	left: 32%;
 	font-weight: 700;
 	font-size: 15px;
-	top: -70px;
+	top: -80px;
 		color: black;
 }
 #Home{
@@ -121,7 +121,7 @@
 	left: 31%;
 	font-weight: 700;
 	font-size: 15px;
-	top: -70px;
+	top: -80px;
 	color: black;
 }
 #IconEmpresa {
@@ -166,7 +166,7 @@
 		width: 270px;
 		left: 15px;
 		height: 40px;
-		top: 17px;
+		top: 3px;
 		border: 1px solid gray;
 	}
 	&:active{
@@ -215,3 +215,87 @@
 	  
 	}
 } 
+@media (min-width:270px) and  (max-width: 550px){
+	html{
+		overflow-x: hidden;
+	}
+	.divulgacao{
+		height: 70px;
+	}
+	#pd{
+		width: 200px;
+	font-size: 10px;
+	right: 20px;
+	top: 20px;
+    }
+	.icon-fac{
+		left: 20%;
+		bottom: 23px;
+	}
+	.icon-you{
+		left: 76%;
+		bottom: 10px;
+	}
+	.icon-ins{
+		left: 85%;
+		bottom: 10px;
+	}
+	#IconEmpresa {
+		width: 110px;
+		height: 50px;
+		left: -3px;
+		
+	}
+	#Home{
+		left: 13%;
+		top: -92px;
+		font-size: 13px;
+	}
+	#Hprod{
+		left: 14%;
+		top: -92px;
+		font-size: 13px;
+	}
+	#HprodF{
+		left: 14%;
+		top: -80px;
+		img{
+			width: 37px;
+			height: 37px;
+		}
+	}
+	#Hpes img{
+		left: 15%;
+		top: -86px;
+	}
+	.pesq{
+		top: -30px;
+		width: 270px;
+		left: 20%;
+	}
+	.ipt-pesq{
+		width: 200px !important;
+		left: 10px !important;
+		top: -2px !important;
+	}
+	.btn-pesq{
+		left: 2px !important;
+		top: 12px !important;
+	}
+	.c{
+		width: 270px;
+		left: 20%;
+		height: 70px;
+		border: 1px solid lightgray;
+		bottom: 19%;
+		img{
+			width: 35px;
+			height: 35px;
+			left: 10px;
+			top: 10px;
+		}
+		a{
+			left: 60px;
+		}
+	}
+}

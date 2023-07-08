@@ -1,11 +1,40 @@
-import React from  'react';
+import React, { useState } from 'react';
+
 import '../../../css/style.css'
-import imgCf3 from '../../../fotos/cf-3-gvt.jpeg';
+import img0Cf5 from '../../../fotos/Bancada-900mm-4gvt.png';
+
 import whatsButton from "../../../fotos/whatsapp.png";
+import {
+
+  CarouselProvider,
+  ImageWithZoom,
+}  from 'pure-react-carousel';
+import 'pure-react-carousel/dist/react-carousel.es.css';
+
 function ProdutoPrincipal(){
+  const [imagemVisivel, setImagemVisivel] = useState(img0Cf5);
+
+const exibirImagem = (src) => {
+  setImagemVisivel(src);
+};
     return(
         <div class="produto-principal">
-        <img class="imgp"  src={imgCf3}/>
+             <div  className="imgp">
+  <CarouselProvider className="imgp"
+   
+      infinite
+    visibleSlides={1}
+    totalSlides={5}
+  >
+
+      <div className='imgp'>
+        <img className="imgSlider imgEspecial" src={imagemVisivel}/>
+      
+       </div>
+      
+
+  </CarouselProvider>
+  </div>
         <h1 class="prod-h1">Caixa de Ferramentas 3 GVT</h1>
         
         <p id="txt-cf5">É uma ferramenta com durabilidade por mais de 10 ANOS <br/>
@@ -26,7 +55,7 @@ function ProdutoPrincipal(){
                 ><img src={whatsButton}/> 
                 <p class="p-what">Fazer orçamento</p> </a>    
             </div>
-           
+          
         </div>
     )
 }

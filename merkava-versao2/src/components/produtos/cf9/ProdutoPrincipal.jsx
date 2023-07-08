@@ -1,4 +1,5 @@
-import React from  'react';
+import React, { useState } from 'react';
+
 import '../../../css/style.css'
 import img0Cf9 from '../../../fotos/cf-9gvt.jpg';
 import img1Cf9 from '../../../fotos/cf-gvt9.jpg';
@@ -7,17 +8,18 @@ import img3Cf9 from '../../../fotos/c-9gvt(3.jpeg';
 import img4Cf9 from '../../../fotos/c-9gvt.jpeg';
 import whatsButton from "../../../fotos/whatsapp.png";
 import {
-  ButtonBack,
-  ButtonNext,
+
   CarouselProvider,
   ImageWithZoom,
-  Slide,
-  Slider,
 }  from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
-import back from '../../../fotos/back.png';
-import forward from '../../../fotos/forward.png';
+
 function ProdutoPrincipal(){
+  const [imagemVisivel, setImagemVisivel] = useState(img0Cf9);
+
+const exibirImagem = (src) => {
+  setImagemVisivel(src);
+};
     return(
         <div class="produto-principal">
              <div  className="imgp">
@@ -27,28 +29,18 @@ function ProdutoPrincipal(){
     visibleSlides={1}
     totalSlides={5}
   >
-    <Slider  
-    >
-      <Slide index={0}>
-        <ImageWithZoom className="imgSlider" src={img0Cf9} />
-      </Slide>
-      <Slide index={1}>
-        <ImageWithZoom className="imgSlider" src={img1Cf9} />
-      </Slide>
-      <Slide index={2}>
-        <ImageWithZoom className="imgSlider" src={img2Cf9} />
-      </Slide>
-      <Slide index={3}>
-        <ImageWithZoom className="imgSlider" src={img3Cf9} />
-      </Slide>
-      <Slide index={4}>
-        <ImageWithZoom className="imgSlider" src={img4Cf9} />
+
+      <div className='imgp'>
+        <ImageWithZoom className="imgSlider" src={imagemVisivel}/>
       
-      </Slide>
-     
-    </Slider>
-    <ButtonBack className="btn-slider btn-left" ><img src={back}/></ButtonBack>
-    <ButtonNext className="btn-slider btn-right" ><img src={forward}/></ButtonNext>
+       </div>
+      
+   
+    <button className="btn-slider" onClick={() => exibirImagem(img0Cf9)}  ><img src={img0Cf9}/></button>
+    <button className="btn-slider"  onClick={() => exibirImagem(img1Cf9)}><img src={img1Cf9}/></button>
+    <button className="btn-slider"  onClick={() => exibirImagem(img2Cf9)}><img src={img2Cf9}/></button>
+    <button className="btn-slider"  onClick={() => exibirImagem(img3Cf9)}><img src={img3Cf9}/></button>
+    <button className="btn-slider"  onClick={() => exibirImagem(img4Cf9)} ><img src={img4Cf9}/></button>
 
   </CarouselProvider>
   </div>

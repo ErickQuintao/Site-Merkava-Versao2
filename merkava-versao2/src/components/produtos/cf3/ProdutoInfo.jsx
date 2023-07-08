@@ -31,7 +31,7 @@ function ProdutoInfo(){
                <div className={isDesVisible ? "descricao1" : "hidden"}>
                 <p>
                 <strong>   Dimensões da caixa de 3 gavetas<br/></strong> 
-18 x 22 x 50 ou 60 cm de comprimento dimensões útil do produto <br/><br/><br/>
+                18 x 22 x 50 ou 60  cm de comprimento dimensões útil do produto <br/><br/><br/>
 Disponível nas cores preto laranja cinza azul amarelo vermelho verde<br/><br/><br/>
 1 ANO DE GARANTIA<br/><br/><br/>
                 </p>

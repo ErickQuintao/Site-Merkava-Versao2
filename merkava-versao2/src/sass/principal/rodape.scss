@@ -1,15 +1,19 @@
 @import './variavel.scss';
 .rodape{
-	height: 70px;
-	background: $color-primary;
-}
-.p-rod{
-	
 	position: relative;
-	top: 40%;
-	display: flex;
-	justify-content: center;
-	color: white;
-	font-family: Arial, Helvetica, sans-serif;
+	height: 100px;
+	background: $color-primary;
+	bottom: 0px;
+	margin-bottom: 0%;
+	.p-rod{
 	
+		position: relative;
+		top: 40%;
+		display: flex;
+		justify-content: center;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+		
+	}
 }
+

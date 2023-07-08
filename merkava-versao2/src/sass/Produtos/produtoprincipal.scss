@@ -22,32 +22,30 @@
     top: 10px  ;
 }
 .carousel div{
-    width: 600px;
-    height: 800px ;
+    width: 650px;
+    height: 870px ;
 }
+
 .btn-slider{
     position: relative;
-    bottom: 450px;
-    left: 100px;
-    width: 30px;
-    border-radius: 10px;
-    background: transparent;
+    display: flex;
+    flex-direction: column;
+    right: 200px;
+    bottom: 790px;
+    margin-bottom: 5px;
     border: none;
-    
+    img{
+        position: relative;
+        height: 150px !important;
+        width: 150px !important;
+        border-radius: 10px;
+    }
+    &:hover{
+        cursor: pointer;
+    }
 }
 
-.btn-slider img{
-    height: 100px;
-    
-}
-
-.btn-left{
-    position: relative;
-    left: -450px;
-}
-.btn-right{
-    left: 170px;
-}
+ 
 .prod-h1{
     position: relative;
     left: 520px;
@@ -95,11 +93,12 @@ select{
 .whatsapp:hover{
 	
 	background-color: $color-secondary;
-	bottom: 10px;
+	box-shadow: none;
+    border: 1px solid black;
 }
 .p-what{
 	position: relative;
- bottom: 30px;
+ bottom: 60px;
  left: 30px;
  color: white;
  font-family: "Segoe UI";
@@ -118,4 +117,10 @@ select{
     width: 45px;
     height: 45px;
 	
+}
+.imgEspecial{
+    position: relative;
+    border: 1px solid lightgray;
+    width: 700px;
+    right: 100px;
 }
