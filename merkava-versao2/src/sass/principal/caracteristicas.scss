@@ -53,3 +53,16 @@
 	top: 10px;
 	font-size: 28px;
 }
+@media (min-width:270px) and  (max-width: 550px){
+	.caracteristicas-empresa{
+		flex-direction: column;
+	}
+	.divC{
+		top: 280px;
+	    margin-right: 14px !important;
+	   margin-bottom: 15px;
+	}
+	#pc{
+		top: -20px;
+	}
+}

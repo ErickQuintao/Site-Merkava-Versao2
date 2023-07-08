@@ -45,3 +45,30 @@
 	margin-right: 30px;
 	margin-left: 30px;
   }
+  @media (min-width:270px) and  (max-width: 550px){
+ .depoimentos{
+	position: relative;
+	height: 1200px;
+	top: 120px;
+	
+ }
+	.title-depoimentos{
+	font-size: 16px;
+	left: 16%;
+	width: 70%;
+	bottom: 180px;
+ }
+ .container-dep{
+	display: flex;
+	flex-direction: column;
+	left: 5px;
+	top: -170px;
+ }
+ .video{
+	width: 300px;
+	margin-bottom: 20px;
+ }
+ video{
+	width:300px !important;
+ }
+}

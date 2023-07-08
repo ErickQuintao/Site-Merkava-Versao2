@@ -99,5 +99,9 @@
 .btn-best-selling{
 	bottom: 42%;
 	left: 1%;
+	&:hover{
+		bottom: 43%;
+	}
 }
+
   }

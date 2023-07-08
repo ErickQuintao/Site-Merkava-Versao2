@@ -13,7 +13,28 @@ function Sobrenos (){
        
 <div className="sobrenos">
     <h2 className="titleS1 titleS">SOBRE NÓS</h2>
-    <p className="pS" >A MERKAVA ferramentas Auxiliares, surgiu a três anos, com uma proposta diferente, oferecer para o profissional ferramentas que realmente satisfaçam a mais alta exigência do mercado. Acreditamos firmemente que nenhuma empresa se sustenta oferendo produtos que não atendam os níveis mais alto de satisfação entre seus clientes, quando acontece os clientes se tornam parceiros da empresa e assim como numa parceria a uma troca mútua de benefícios. Isso a MERKAVA acredita e se empenha, trazendo ferramentas de alta resistência, qualidade e durabilidade para o mercado. Nosso propósito é ser uma das empresas top 10 na pesquisa por ferramentas auxiliares do Brasil.</p>
+    <p className="pS" >
+A MERKAVA ferramentas Auxiliares,
+ surgiu a três anos, com uma proposta
+  diferente, oferecer para o profissional 
+  ferramentas que realmente satisfaçam a
+ mais alta exigência do mercado.<br/>
+ Acreditamos firmemente 
+ que nenhuma empresa se sustenta
+oferendo produtos que não atendam
+os níveis mais alto de satisfação
+entre seus clientes, quando 
+acontece os clientes se tornam 
+parceiros da empresa e assim como
+ numa parceria a uma troca mútua 
+ de benefícios.<br/> Isso a MERKAVA
+  acredita e se empenha, trazendo
+   ferramentas de alta resistência,
+    qualidade e durabilidade para o
+     mercado.<br/> Nosso propósito
+      é ser uma das empresas top 10 
+      na pesquisa por ferramentas
+       auxiliares do Brasil.</p>
     <a href="" className="iconS">
         <img src={facebook} className="icon-fim fac"/>
         </a>
