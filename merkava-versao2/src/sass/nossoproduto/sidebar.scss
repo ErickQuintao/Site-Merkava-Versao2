@@ -1,6 +1,6 @@
 @import '../principal/variavel.scss';
 .sidebar{
-	height: 400px;
+	height: 100px;
 	width: 40%;
 	position: absolute;
 	top: 40%;
@@ -49,4 +49,26 @@
 
 	margin-top: 10px;
 
+}
+@media (min-width:270px) and  (max-width: 550px){
+	.sidebar{
+		position: relative;
+	}
+	.h2-cat{
+	left: 26%;
+	width: 300px;
+	top: 2%;
+	}
+	.catpro{
+		left: 70px;
+		top: 1%;
+		&:hover{
+			top: 0%;
+		}
+	}
+	.linha1{
+		margin-left: 70px;
+		width: 110%;
+		margin-top: -7px;
+	}
 }

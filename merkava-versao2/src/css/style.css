@@ -333,7 +333,7 @@
   position: relative;
   top: 10px;
   margin-bottom: 100px;
-  left: 20%;
+  left: 15%;
   display: flex;
   flex-direction: row;
 }
@@ -635,7 +635,8 @@
     margin-bottom: 15px;
   }
   #pc {
-    top: -20px;
+    top: -50px;
+    width: 320px;
   }
 }
 .sobrenos {
@@ -946,8 +947,20 @@
   text-decoration: none;
 }
 
+@media (min-width: 270px) and (max-width: 550px) {
+  .cat-ini {
+    right: 70px;
+    font-size: 13px;
+    top: 40px;
+  }
+  .cat-cat {
+    left: -140px;
+    font-size: 13px;
+    top: 40px;
+  }
+}
 .sidebar {
-  height: 400px;
+  height: 100px;
   width: 40%;
   position: absolute;
   top: 40%;
@@ -995,6 +1008,28 @@
   margin-top: 10px;
 }
 
+@media (min-width: 270px) and (max-width: 550px) {
+  .sidebar {
+    position: relative;
+  }
+  .h2-cat {
+    left: 26%;
+    width: 300px;
+    top: 2%;
+  }
+  .catpro {
+    left: 70px;
+    top: 1%;
+  }
+  .catpro:hover {
+    top: 0%;
+  }
+  .linha1 {
+    margin-left: 70px;
+    width: 110%;
+    margin-top: -7px;
+  }
+}
 .order {
   display: flex;
   flex-direction: row;
@@ -1042,6 +1077,38 @@ h3 {
   color: green;
 }
 
+@media (min-width: 270px) and (max-width: 550px) {
+  .order {
+    flex-direction: column;
+    margin-left: 11%;
+    position: relative;
+    height: 100px;
+  }
+  .order div {
+    bottom: 20%;
+    margin-left: 1%;
+    width: 280px;
+    height: 280px;
+    margin-bottom: 20px;
+  }
+  .order img {
+    margin-bottom: 20px;
+  }
+  .order video {
+    width: 280px;
+    height: 280px;
+    margin-right: 1px;
+  }
+  .order .flicking-viewport {
+    top: 90px;
+  }
+  h3 {
+    bottom: -6%;
+  }
+  .a {
+    bottom: -3%;
+  }
+}
 .espaco {
   height: 560px;
 }

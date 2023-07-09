@@ -43,3 +43,36 @@ h3{
     }
     bottom: 45%;
 }
+@media (min-width:270px) and  (max-width: 550px){
+    .order{
+        flex-direction: column;
+        margin-left: 11%;
+        position: relative;
+        height: 100px;
+        div{
+            bottom: 20%;
+            margin-left: 1%;
+        width: 280px;
+        height: 280px;
+        margin-bottom: 20px;
+        }
+        img{
+            margin-bottom: 20px;
+        }
+        video{
+            width: 280px;
+            height: 280px;
+            margin-right: 1px;
+        }
+        .flicking-viewport{
+            top: 90px;
+        }
+    }
+    h3{
+       bottom: -6%;
+    }
+    .a{
+
+        bottom: -3%;
+    }
+}
