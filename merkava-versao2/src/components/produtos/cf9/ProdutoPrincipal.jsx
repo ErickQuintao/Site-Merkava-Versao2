@@ -36,11 +36,11 @@ const exibirImagem = (src) => {
        </div>
       
    
-    <button className="btn-slider" onClick={() => exibirImagem(img0Cf9)}  ><img src={img0Cf9}/></button>
-    <button className="btn-slider"  onClick={() => exibirImagem(img1Cf9)}><img src={img1Cf9}/></button>
-    <button className="btn-slider"  onClick={() => exibirImagem(img2Cf9)}><img src={img2Cf9}/></button>
-    <button className="btn-slider"  onClick={() => exibirImagem(img3Cf9)}><img src={img3Cf9}/></button>
-    <button className="btn-slider"  onClick={() => exibirImagem(img4Cf9)} ><img src={img4Cf9}/></button>
+    <button className="btn-slider btn-6" onClick={() => exibirImagem(img0Cf9)}  ><img src={img0Cf9}/></button>
+    <button className="btn-slider btn-7"  onClick={() => exibirImagem(img1Cf9)}><img src={img1Cf9}/></button>
+    <button className="btn-slider btn-8"  onClick={() => exibirImagem(img2Cf9)}><img src={img2Cf9}/></button>
+    <button className="btn-slider btn-9"  onClick={() => exibirImagem(img3Cf9)}><img src={img3Cf9}/></button>
+    <button className="btn-slider btn-10"  onClick={() => exibirImagem(img4Cf9)} ><img src={img4Cf9}/></button>
 
   </CarouselProvider>
   </div>

@@ -36,8 +36,8 @@
     border: none;
     img{
         position: relative;
-        height: 150px !important;
-        width: 150px !important;
+        height: 150px ;
+        width: 150px ;
         border-radius: 10px;
     }
     &:hover{
@@ -89,12 +89,12 @@ select{
 	border-radius: 10px;
 	background-color: gray;
 	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
-}
-.whatsapp:hover{
+ &:hover{
 	
 	background-color: $color-secondary;
 	box-shadow: none;
     border: 1px solid black;
+}
 }
 .p-what{
 	position: relative;
@@ -124,3 +124,107 @@ select{
     width: 700px;
     right: 100px;
 }
+@media (min-width:270px) and  (max-width: 550px){
+    html{
+        overflow-x: hidden !important;
+    }
+    button{
+        width: 82px;
+    }
+        .imgp{
+    left: 5px;
+    height: 500px;
+    }
+    .carousel div{
+        width: 380px;
+        height: 500px ;
+    }
+    .btn-slider{
+      
+        display: flex;
+        max-width:82px;
+        right: -1px;
+        bottom:-20px;
+        flex-direction: row-reverse ;
+        margin-left: 10px;
+        img{
+            width: 70px !important;
+            height: 70px !important;
+        }
+    }
+    .btn-2{
+        left: 90px;
+        bottom: 57px;
+    }
+    .btn-3{
+        left: 180px;
+        bottom: 135px;
+    }
+    .btn-4{
+        left: 270px;
+        bottom: 210px;
+    }
+    
+    .btn-6{
+        left: -20px;
+
+    }
+    .btn-7{
+        left: 55px;
+        bottom: 58px;
+    }
+    .btn-8{
+        left: 130px;
+        bottom: 135px;
+    }
+    .btn-9{
+        left: 205px;
+        bottom: 213px;
+    }
+    .btn-10{
+        left: 280px;
+        bottom: 290px;
+    }
+    .prod-h1{
+        left: 10px;
+        font-size: 20px;
+        bottom:-100px;
+    }
+    #txt-cf5{
+        position: relative;
+        left: 30px;
+        bottom: -90px;
+        width: 330px;
+    }
+    label{
+        left: -30px;
+        top: 80px;
+    }
+    select{
+        left: -10px;
+        width: 120px;
+        height: 30px;
+        top: 80px;
+    }
+    .whatsapp{
+        width: 200px;
+     height: 50px;
+     left: 100px;
+     top: 100px;
+    }
+    .p-what{
+        left: 20px;
+        font-size: 18px;
+        bottom: 45px;
+    }
+    .what img{
+        width: 30px;
+        height: 30px;
+        left: -75px;
+        top: 8px;
+    }
+    .imgEspecial{
+        right: 180px;
+        border: none;
+    }
+    }

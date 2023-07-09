@@ -680,7 +680,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 440px;
+  bottom: 480px;
 }
 
 .fim-two {
@@ -688,7 +688,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 420px;
+  bottom: 460px;
 }
 
 .fim-three {
@@ -696,7 +696,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 400px;
+  bottom: 440px;
 }
 
 .fim-four {
@@ -704,7 +704,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 380px;
+  bottom: 420px;
 }
 
 .gvtnine {
@@ -912,6 +912,8 @@
     width: 50px;
     height: 50px;
     left: 80%;
+    top: 56%;
+    z-index: 99999;
   }
 }
 .catalogo {
@@ -1155,8 +1157,8 @@ h3 {
 }
 .btn-slider img {
   position: relative;
-  height: 150px !important;
-  width: 150px !important;
+  height: 150px;
+  width: 150px;
   border-radius: 10px;
 }
 .btn-slider:hover {
@@ -1211,7 +1213,6 @@ select {
   background-color: gray;
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
 }
-
 .whatsapp:hover {
   background-color: #228B22;
   box-shadow: none;
@@ -1248,6 +1249,107 @@ select {
   right: 100px;
 }
 
+@media (min-width: 270px) and (max-width: 550px) {
+  html {
+    overflow-x: hidden !important;
+  }
+  button {
+    width: 82px;
+  }
+  .imgp {
+    left: 5px;
+    height: 500px;
+  }
+  .carousel div {
+    width: 380px;
+    height: 500px;
+  }
+  .btn-slider {
+    display: flex;
+    max-width: 82px;
+    right: -1px;
+    bottom: -20px;
+    flex-direction: row-reverse;
+    margin-left: 10px;
+  }
+  .btn-slider img {
+    width: 70px !important;
+    height: 70px !important;
+  }
+  .btn-2 {
+    left: 90px;
+    bottom: 57px;
+  }
+  .btn-3 {
+    left: 180px;
+    bottom: 135px;
+  }
+  .btn-4 {
+    left: 270px;
+    bottom: 210px;
+  }
+  .btn-6 {
+    left: -20px;
+  }
+  .btn-7 {
+    left: 55px;
+    bottom: 58px;
+  }
+  .btn-8 {
+    left: 130px;
+    bottom: 135px;
+  }
+  .btn-9 {
+    left: 205px;
+    bottom: 213px;
+  }
+  .btn-10 {
+    left: 280px;
+    bottom: 290px;
+  }
+  .prod-h1 {
+    left: 10px;
+    font-size: 20px;
+    bottom: -100px;
+  }
+  #txt-cf5 {
+    position: relative;
+    left: 30px;
+    bottom: -90px;
+    width: 330px;
+  }
+  label {
+    left: -30px;
+    top: 80px;
+  }
+  select {
+    left: -10px;
+    width: 120px;
+    height: 30px;
+    top: 80px;
+  }
+  .whatsapp {
+    width: 200px;
+    height: 50px;
+    left: 100px;
+    top: 100px;
+  }
+  .p-what {
+    left: 20px;
+    font-size: 18px;
+    bottom: 45px;
+  }
+  .what img {
+    width: 30px;
+    height: 30px;
+    left: -75px;
+    top: 8px;
+  }
+  .imgEspecial {
+    right: 180px;
+    border: none;
+  }
+}
 .produto-infor {
   position: relative;
   height: 600px;
@@ -1390,6 +1492,51 @@ li {
   bottom: 13px;
 }
 
+@media (min-width: 270px) and (max-width: 550px) {
+  body {
+    overflow-x: hidden;
+  }
+  html {
+    overflow-x: hidden !important;
+  }
+  .produto-infor {
+    top: 400px;
+    height: 200px;
+  }
+  .linha1 {
+    left: -40px;
+    width: 80%;
+  }
+  .linha3 {
+    width: 110px;
+    left: 90px;
+    top: 58px;
+    height: 6px;
+  }
+  .infad {
+    left: -50px;
+    top: 60px;
+  }
+  .des {
+    left: -150px;
+    top: 82px;
+  }
+  .linha2 {
+    left: -7px;
+    top: 80px;
+  }
+  .descricao1 {
+    right: 10px;
+    top: 50px;
+  }
+  .informacao {
+    right: 180px;
+    top: 20px;
+  }
+  #cm {
+    left: 200px;
+  }
+}
 body {
   overflow-x: hidden !important;
 }

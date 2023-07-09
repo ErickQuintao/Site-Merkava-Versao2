@@ -126,3 +126,49 @@ li {
 	font-weight: 700;
 	bottom: 13px;
 }
+@media (min-width:270px) and  (max-width: 550px){
+	body{
+		overflow-x: hidden;
+	}
+	html{
+		overflow-x: hidden !important;
+	}
+	.produto-infor{
+		top: 400px;
+		height: 200px;
+	}
+    .linha1{
+		left: -40px;
+		width: 80%;
+	}
+	.linha3{
+		width:110px;
+		left: 90px;
+		top: 58px;
+		height: 6px;
+	}
+	.infad{
+		left: -50px;
+		top: 60px;
+	}
+	.des{
+		left: -150px;
+		top: 82px;
+	}
+	.linha2{
+		left: -7px;
+		top: 80px;
+	}
+	.descricao1{
+		right: 10px;
+		top: 50px;
+	}
+	.informacao{
+		right: 180px;
+		top: 20px;
+	}
+	#cm{
+		left: 200px;
+	}
+
+}
