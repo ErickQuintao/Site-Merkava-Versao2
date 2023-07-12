@@ -1,0 +1,69 @@
+@import '../principal/variavel.scss';
+.containerEtapa{
+    position: relative;
+    width: 700px;
+    height: 650px;
+    top: 60px;
+    border: 1px solid black;
+    border-radius: 20px;
+   left: 28%;
+}
+.opcoes{
+    position: relative;
+    right: 70%;
+    top: 60px;
+}
+.AnteriorEtapa{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 15%;
+    right: 20%;
+    background: $color-primary;
+    color: white;
+    span{
+        font-size: 40px;
+    }
+    &:hover{
+        cursor: pointer;
+        background: $color-secondary;
+    }
+}
+.ProximoEtapa{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    top: 15%;
+    left: 20%;
+    background: $color-primary;
+    color: white;
+    span{
+        font-size: 40px;
+    }
+    &:hover{
+        cursor: pointer;
+        background: $color-secondary;
+    }
+}
+.mainEtapa{
+    position: relative;
+    width: 500px;
+    height: 350px;
+    top: 40px;
+    left: 100px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+.fotoEtapa{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+.cont-{
+    width: 500px;
+    height: 350px;
+}

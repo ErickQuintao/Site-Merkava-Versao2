@@ -26,8 +26,8 @@ function Header() {
             <a href="./index.html"><img src="https://merkavaferramentas.com.br/wp-content/uploads/2022/07/200x34.png" id="IconEmpresa" alt="Logo" /></a>
           
             <a  href={`/`} style={{ textDecoration: 'none' }} id="Home" >HOME</a>
-
           <a href={`/NossoProduto`} style={{ textDecoration: 'none' }} id="Hprod">NOSSOS PRODUTOS</a> 
+          <a href={`/PersonalizarMeuProduto`} style={{ textDecoration: 'none' }} id="HprodP">PERSONALIZAR PRODUTO</a> 
             <a href={"https://linkwhats.app/06a04a"} style={{ textDecoration: 'none' }} id="HprodF"><img src={whatsapp}/></a>
             <a style={{ textDecoration: 'none' }} href="./" id="Hpes">
               <img className="img-pesq4" src={imgPesq} alt="Pesquisa" onMouseOver={exibirPesq} />

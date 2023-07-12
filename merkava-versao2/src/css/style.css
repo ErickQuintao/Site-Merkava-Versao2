@@ -106,7 +106,7 @@
   color: black;
 }
 
-#Hprod {
+#HprodP {
   position: relative;
   left: 32%;
   font-weight: 700;
@@ -115,9 +115,18 @@
   color: black;
 }
 
-#Home {
+#Hprod {
   position: relative;
   left: 31%;
+  font-weight: 700;
+  font-size: 15px;
+  top: -80px;
+  color: black;
+}
+
+#Home {
+  position: relative;
+  left: 30%;
   font-weight: 700;
   font-size: 15px;
   top: -80px;
@@ -241,26 +250,34 @@
     left: -3px;
   }
   #Home {
-    left: 13%;
+    left: 33%;
     top: -92px;
     font-size: 13px;
   }
   #Hprod {
-    left: 14%;
-    top: -92px;
+    left: 20%;
+    top: -62px;
     font-size: 13px;
   }
+  #HprodP {
+    left: 4%;
+    top: -92px;
+    font-size: 14px;
+  }
+  .slide {
+    bottom: -40px !important;
+  }
   #HprodF {
-    left: 14%;
-    top: -80px;
+    left: -20%;
+    top: -48px;
   }
   #HprodF img {
     width: 37px;
     height: 37px;
   }
   #Hpes img {
-    left: 15%;
-    top: -86px;
+    left: 25%;
+    top: -94px;
   }
   .pesq {
     top: -30px;
@@ -310,7 +327,8 @@
 
 @media (min-width: 270px) and (max-width: 550px) {
   .mySlides {
-    top: 40px;
+    top: 80px;
+    height: 300px;
   }
 }
 .imgProduct {
@@ -1537,6 +1555,141 @@ li {
     left: 200px;
   }
 }
+.containerEtapa {
+  position: relative;
+  width: 700px;
+  height: 650px;
+  top: 60px;
+  border: 1px solid black;
+  border-radius: 20px;
+  left: 28%;
+}
+
+.opcoes {
+  position: relative;
+  right: 70%;
+  top: 60px;
+}
+
+.AnteriorEtapa {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 15%;
+  right: 20%;
+  background: green;
+  color: white;
+}
+.AnteriorEtapa span {
+  font-size: 40px;
+}
+.AnteriorEtapa:hover {
+  cursor: pointer;
+  background: #228B22;
+}
+
+.ProximoEtapa {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 15%;
+  left: 20%;
+  background: green;
+  color: white;
+}
+.ProximoEtapa span {
+  font-size: 40px;
+}
+.ProximoEtapa:hover {
+  cursor: pointer;
+  background: #228B22;
+}
+
+.mainEtapa {
+  position: relative;
+  width: 500px;
+  height: 350px;
+  top: 40px;
+  left: 100px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.fotoEtapa {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.cont- {
+  width: 500px;
+  height: 350px;
+}
+
+.container-main-end {
+  position: relative;
+  width: 1000px;
+  height: 700px;
+  top: 100px;
+  left: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.container-main-end h1 {
+  position: relative;
+  font-size: 40px;
+  bottom: 20px;
+}
+.container-main-end div {
+  position: relative;
+  font-size: 30px;
+  font-weight: 700;
+  left: 30px;
+  text-align: left;
+}
+
+.AnteriorEtapaEnd {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 55%;
+  right: 20%;
+  background: green;
+  color: white;
+}
+.AnteriorEtapaEnd span {
+  font-size: 40px;
+}
+.AnteriorEtapaEnd:hover {
+  cursor: pointer;
+  background: #228B22;
+}
+
+.ProximoEtapaEnd {
+  position: relative;
+  padding: 20px;
+  padding-bottom: 10px;
+  border: 1px solid black;
+  border-radius: 20px;
+  top: 55%;
+  left: 20%;
+  background: green;
+  color: white;
+}
+.ProximoEtapaEnd span {
+  font-size: 40px;
+}
+.ProximoEtapaEnd:hover {
+  cursor: pointer;
+  background: #228B22;
+}
+
 body {
   overflow-x: hidden !important;
 }

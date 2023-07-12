@@ -107,8 +107,7 @@
 	top: -62px;
 		color: black;
 }
-
-#Hprod{
+#HprodP{
 	position: relative;
 	left: 32%;
 	font-weight: 700;
@@ -116,9 +115,17 @@
 	top: -80px;
 		color: black;
 }
-#Home{
+#Hprod{
 	position: relative;
 	left: 31%;
+	font-weight: 700;
+	font-size: 15px;
+	top: -80px;
+		color: black;
+}
+#Home{
+	position: relative;
+	left: 30%;
 	font-weight: 700;
 	font-size: 15px;
 	top: -80px;
@@ -247,26 +254,34 @@
 		
 	}
 	#Home{
-		left: 13%;
+		left: 33%;
 		top: -92px;
 		font-size: 13px;
 	}
 	#Hprod{
-		left: 14%;
-		top: -92px;
+		left: 20%;
+		top: -62px;
 		font-size: 13px;
 	}
+	#HprodP{
+		left: 4%;
+		top: -92px;
+		font-size: 14px;
+	}
+	.slide{
+		bottom: -40px !important;
+	}
 	#HprodF{
-		left: 14%;
-		top: -80px;
+		left: -20%;
+		top: -48px;
 		img{
 			width: 37px;
 			height: 37px;
 		}
 	}
 	#Hpes img{
-		left: 15%;
-		top: -86px;
+		left: 25%;
+		top: -94px;
 	}
 	.pesq{
 		top: -30px;

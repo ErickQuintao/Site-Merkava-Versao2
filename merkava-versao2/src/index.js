@@ -12,7 +12,11 @@ import CaixaFerramenta5gvt from "./routes/CaixaFerramenta5gvt";
 import CaixaFerramenta3gvt from "./routes/CaixaFerramenta3gvt";
 import CaixaFerramenta7gvt from "./routes/CaixaFerramenta7gvt";
 import CaixaFerramenta9gvt from "./routes/CaixaFerramenta9gvt";
-
+import PersonalizarProduto from './routes/PersonalizarProduto';
+import EtapaOne from './components/PersonalizarProduto/EtapaOne';
+import EtapaTwo from './components/PersonalizarProduto/EtapaTwo';
+import EtapaThree from './components/PersonalizarProduto/EtapaThree';
+import EtapaEnd from './components/PersonalizarProduto/EtapaEnd';
 
 const router= createBrowserRouter([
   {
@@ -49,6 +53,31 @@ const router= createBrowserRouter([
           element: <CaixaFerramenta9gvt/>,
           errorElement: <ErrorPage />
         },
+        {
+          path:"/PersonalizarMeuProduto",
+          element: <PersonalizarProduto/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/EtapaOne",
+          element: <EtapaOne/>,
+          errorElement: <ErrorPage />
+        }, 
+         {
+          path:"/EtapaTwo",
+          element: <EtapaTwo/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/EtapaThree",
+          element: <EtapaThree/>,
+          errorElement: <ErrorPage />
+        },
+        {
+          path:"/EtapaEnd",
+          element: <EtapaEnd/>,
+          errorElement: <ErrorPage />
+        }
     ],
   },
 ])
