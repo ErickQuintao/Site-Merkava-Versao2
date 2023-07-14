@@ -6,7 +6,7 @@ import cf5 from '../../fotos/cf-5gvt.jpeg';
 import sem from '../../fotos/Bancada-900mm-4gvt.png';
 //Etapa2
 import chp90 from '../../fotos/tamanho-chapa/chp0-90.jpeg';
-import chp75 from '../../fotos/tamanho-chapa/ch0-75.jpg';
+import chp75 from '../../fotos/tamanho-chapa/0-75.png';
 //Etapa3
 import mm500 from '../../fotos/militros/50cm.png';
 import mm550 from '../../fotos/militros/55cm.png';
@@ -151,24 +151,61 @@ const [selectedOption2, setSelectedOption2] = useState('');
   setSelectedOption2(selectedOption2);
 };
 // EtapaEnd
+//validação se todos input foram preenchidos
+const [validation, setValidation] = useState('Por favor,preencha todos os campos');
+let [verdade,setVerdade] = useState(1);
+let [verdade1,setVerdade1] = useState(1);
+let [verdade2,setVerdade2] = useState(1);
+let acumulador = 0;
 //Nome
 const [NOME, SetNOME] = useState();
 function inputNome(event){
   let valor = event.target.value;
   SetNOME(valor)
+  //validação do formulario
+  event.preventDefault();
+  if (NOME !== '') {
+    setValidation('Concluido!Campo Nome');
+    setVerdade(2)
+  } else {
+    setValidation('Por favor, preencha o campo Nome,para liberar o botão Enviar');
+    setVerdade(1)
+  }
 }
 //CPF
 const [CPF, SetCPF] = useState();
 function inputCPF(event) {
   let valor = event.target.value;
   SetCPF(valor)
+  //validação do formulario
+  event.preventDefault();
+  if ( CPF !== '') {
+    setValidation('Concluido!Campo CPF');
+    setVerdade1(2)
+ 
+  } else {
+    setValidation('Por favor, preencha o campo CPF,para liberar o botão Enviar');
+    setVerdade1(1)
+  }
 }
+
 //CEP
 const [CEP, SetCEP] = useState();
 function inputCep(event) {
   let valor = event.target.value;
   SetCEP(valor)
+  //validação do formulario
+  event.preventDefault();
+  if (CEP !== '') {
+    setValidation('Concluido!Campo CEP');
+    setVerdade2(2)
+ 
+  } else {
+    setValidation('Por favor, preencha o campo CEP,para liberar o botão Enviar');
+    setVerdade2(1)
+  }
 }
+
   //navegação entre etapas
   const [screen, setScreen] = useState(1);
   const handleStepNext = () => {
@@ -200,7 +237,8 @@ function inputCep(event) {
     }
 
   };
-//Etapa End whatsapp
+//Etapa End 
+//whatsapp
 function gotowhatsapp() {
   let url = "https://wa.me/3189315578?text="
       + "Nome: " + NOME + "%0a"
@@ -213,25 +251,23 @@ function gotowhatsapp() {
       + "CEP:" + CEP;
   window.open(url, '_blank').focus();
 }
+
   return (
     <div>
-      <div className="header">
-        <h2>Como deseja customizar o seu produto</h2>
-      </div>
       <div className="form-container">
-        <p>etapas</p>
         <form>
+
           <div className="main-form">
             {screen === 1 && (
               <div className="containerEtapa">
               <h1 className="titleEtapa">Crie o seu Produto Personalizado</h1>
               <div className="opcoes">
-                  <label className="labelEtapa">Quantas Gavetas sua Caixa:</label>
+                  <label className="labelEtapa"><span>Quantas Gavetas sua Caixa:</span></label>
                   <select className="selectEtapa" value={selectedOption} onChange={handleSelectChange}>
-            <option value="">Selecione</option>
-            <option value="opcao1" onClick={()=> redirectImg(cf5)}>5 GVT</option>
-            <option value="opcao2" onClick={()=> redirectImg(cf7)}>7 GVT</option>
-            <option value="opcao3" onClick={()=> redirectImg(cf9)}>9 GVT</option>
+            <option value=""><span>Selecione</span></option>
+            <option value="opcao1" onClick={()=> redirectImg(cf5)}><span>5 GVT</span></option>
+            <option value="opcao2" onClick={()=> redirectImg(cf7)}><span>7 GVT</span></option>
+            <option value="opcao3" onClick={()=> redirectImg(cf9)}><span>9 GVT</span></option>
           </select>
                       </div>
                 
@@ -246,11 +282,11 @@ function gotowhatsapp() {
                       <div className="containerEtapa">
                       <h1 className="titleEtapa">Crie o seu Produto Personalizado</h1>
                       <div className="opcoes">
-                          <label className="labelEtapa">Qual Tamanho da Champa que vai Querer:</label>
+                          <label className="labelEtapa"><span>Qual Tamanho da Champa que vai Querer:</span></label>
                           <select className="selectEtapa" value={selectedOption3} onChange={handleSelectChange3}>
-                    <option value="">Selecione</option>
-                    <option value="opcao1">0.75</option>
-                    <option value="opcao2">0.90</option>
+                    <option value=""><span>Selecione</span></option>
+                    <option value="opcao1"><span>0.75</span></option>
+                    <option value="opcao2"><span>0.90</span></option>
 
                   </select>
                               </div>
@@ -264,13 +300,13 @@ function gotowhatsapp() {
               <div className="containerEtapa">
               <h1 className="titleEtapa">Crie o seu Produto Personalizado</h1>
               <div className="opcoes">
-                  <label className="labelEtapa">Quantos Cm você que vai Querer:</label>
+              <label className="labelEtapa"><span>Quantos Cm você que vai Querer:</span></label>
                   <select className="selectEtapa" value={selectedOption4} onChange={handleSelectChange4}>
-            <option value="">Selecione</option>
-            <option value="opcao1">500mm</option>
-            <option value="opcao2">550mm</option>
-            <option value="opcao3">600mm</option>
-            <option value="opcao4">650mm</option>
+            <option value=""><span>Selecione</span></option>
+            <option value="opcao1"><span>500mm</span></option>
+            <option value="opcao2"><span>550mm</span></option>
+            <option value="opcao3"><span>600mm</span></option>
+            <option value="opcao4"><span>650mm</span></option>
           </select>
                       </div>
 
@@ -283,14 +319,14 @@ function gotowhatsapp() {
                <div className="containerEtapa">
                <h1 className="titleEtapa">Crie o seu Produto Personalizado</h1>
                <div className="opcoes">
-                   <label className="labelEtapa">Qual cor do Corpo vai Querer:</label>
+                   <label className="labelEtapa"><span>Qual cor do Corpo vai Querer:</span></label>
                    <select className="selectEtapa" value={selectedOption1} onChange={handleSelectChange1}>
-             <option value="">Selecione</option>
-             <option value="opcao1" onClick={()=> redirectImg1(black)}>Preto</option>
-             <option value="opcao2" onClick={()=> redirectImg1(red)}>Vermelho</option>
-             <option value="opcao3" onClick={()=> redirectImg1(blue)}>Azul</option>
-             <option value="opcao4" onClick={()=> redirectImg1(graphiteGray)}>Cinza Grafite</option>
-             <option value="opcao5" onClick={()=> redirectImg1(lightGray)}>Cinza Claro</option>
+             <option value=""><span>Selecione</span></option>
+             <option value="opcao1" onClick={()=> redirectImg1(black)}><span>Preto</span></option>
+             <option value="opcao2" onClick={()=> redirectImg1(red)}><span>Vermelho</span></option>
+             <option value="opcao3" onClick={()=> redirectImg1(blue)}><span>Azul</span></option>
+             <option value="opcao4" onClick={()=> redirectImg1(graphiteGray)}><span>Cinza Grafite</span></option>
+             <option value="opcao5" onClick={()=> redirectImg1(lightGray)}><span>Cinza Claro</span></option>
            </select>
                        </div>
                    <div className="mainEtapa">
@@ -302,15 +338,15 @@ function gotowhatsapp() {
                 <div className="containerEtapa">
                 <h1 className="titleEtapa">Crie o seu Produto Personalizado</h1>
                 <div className="opcoes">
-                    <label className="labelEtapa">Qual cor do Tampa vai Querer:</label>
+                    <label className="labelEtapa"><span>Qual cor do Tampa vai Querer:</span></label>
                     <select className="selectEtapa" value={selectedOption2} onChange={handleSelectChange2}>
-              <option value="">Selecione</option>
-              <option value="opcao1">Preto</option>
-              <option value="opcao2">Vermelho</option>
-              <option value="opcao3">Azul</option>
-              <option value="opcao4">laranja</option>
-              <option value="opcao5">verde</option>
-              <option value="opcao6">Amerelo</option>
+              <option value=""><span>Selecione</span></option>
+              <option value="opcao1"><span>Preto</span></option>
+              <option value="opcao2"><span>Vermelho</span></option>
+              <option value="opcao3"><span>Azul</span></option>
+              <option value="opcao4"><span>Laranja</span></option>
+              <option value="opcao5"><span>Verde</span></option>
+              <option value="opcao6"><span>Amerelo</span></option>
             </select>
                         </div>
 
@@ -322,21 +358,21 @@ function gotowhatsapp() {
            
             {screen === 6 && (
                   <div className="container-main-end">
-                  <h1>Finalização</h1>
-                  <div className="gavetas">
-                    <span>Quantidade de Gavetas Escolhida: {Transformer}</span>
+                  <h1>FINALIZAÇÃO DA PERSONALIZAÇÃO DO PRODUTO</h1>
+                  <div className="finalizacao gavetas">
+                    <span>QUANTIDADE DE GAVETAS ESCOLHIDAS: <span>{Transformer}</span></span>
                   </div>
-                  <div className="cor-corpo">
-                    <span>Cor do Corpo Escolhida: {Transformer1}</span>
+                  <div className="finalizacao cor-corpo">
+                    <span>COR DO CORPO ESCOLHIDA: <span>{Transformer1}</span></span>
                   </div>
-                  <div className="cor-tampa">
-                    <span>Cor da Tampa Escolhida: {Transformer2}</span>
+                  <div className="finalizacao cor-tampa">
+                    <span>COR DA TAMPA ESCOLHIDA: <span>{Transformer2}</span></span>
                   </div>
-                  <div className="tam-caixa">
-                    <span>Tamanho da Champa Escolhida: {Transformer3}</span>
+                  <div className="finalizacao tam-caixa">
+                    <span>TAMANHO DA CHAMPA ESCOLHIDA: <span>{Transformer3}</span></span>
                   </div>
-                  <div className="cor-tampa">
-                    <span>Cm da Caixa Escolhida: {Transformer4}</span>
+                  <div className="finalizacao cor-tampa">
+                    <span>CM DA CAIXA ESCOLHIDA: <span>{Transformer4}</span></span>
                   </div>
                   <div className="frete">
                 <span >FAÇA COTAÇÃO DO FRETE:</span>
@@ -345,9 +381,14 @@ function gotowhatsapp() {
     <input className='CEP' type='number'placeholder='CEP' onChange={(event)=>inputCep(event)}/>
                   </div>
                   <button className="AnteriorEtapa"type="button" onClick={handleStepPrevious}>
-              <span>Voltar</span>
-            </button>
-                  <button className="btn-end"onClick={gotowhatsapp}><span>Enviar</span></button>
+                    <span>Voltar</span>
+                  </button>
+                  {  verdade === 2 && verdade1 ===2 && verdade2 ===2 &&(
+                  <button className="btn-end"onClick={gotowhatsapp}>
+                    <span>Enviar</span>
+                  </button>
+                  ) }
+                  <div className='mensagem'><span>{validation}</span></div>
                 </div>
             )}
           </div>
@@ -357,7 +398,7 @@ function gotowhatsapp() {
                <span>Voltar</span>
              </button>
             )}
-            {screen !== 6 &&(
+            {screen !== 6  &&(
               <button className="ProximoEtapa"type="button" onClick={handleStepNext}>
               <span>Avançar</span>
             </button>

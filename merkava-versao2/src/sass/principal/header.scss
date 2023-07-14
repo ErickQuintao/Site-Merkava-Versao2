@@ -226,6 +226,9 @@
 	html{
 		overflow-x: hidden;
 	}
+	.header{
+		height: 110px;
+	}
 	.divulgacao{
 		height: 70px;
 	}
@@ -248,40 +251,41 @@
 		bottom: 10px;
 	}
 	#IconEmpresa {
-		width: 110px;
-		height: 50px;
+		width: 100px;
+		height: 40px;
 		left: -3px;
 		
 	}
 	#Home{
-		left: 33%;
-		top: -92px;
+		left: 30%;
+		top: -95px;
 		font-size: 13px;
 	}
 	#Hprod{
 		left: 20%;
-		top: -62px;
+		top: -72px;
 		font-size: 13px;
+		
 	}
 	#HprodP{
-		left: 4%;
-		top: -92px;
-		font-size: 14px;
+		left: 6%;
+		top: -95px;
+		font-size: 13px;
 	}
 	.slide{
 		bottom: -40px !important;
 	}
 	#HprodF{
-		left: -20%;
-		top: -48px;
+		left: -17%;
+		top: -53px;
 		img{
 			width: 37px;
 			height: 37px;
 		}
 	}
 	#Hpes img{
-		left: 25%;
-		top: -94px;
+		left: -15%;
+		top: -60px;
 	}
 	.pesq{
 		top: -30px;

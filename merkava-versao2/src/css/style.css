@@ -223,6 +223,9 @@
   html {
     overflow-x: hidden;
   }
+  .header {
+    height: 110px;
+  }
   .divulgacao {
     height: 70px;
   }
@@ -245,39 +248,39 @@
     bottom: 10px;
   }
   #IconEmpresa {
-    width: 110px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
     left: -3px;
   }
   #Home {
-    left: 33%;
-    top: -92px;
+    left: 30%;
+    top: -95px;
     font-size: 13px;
   }
   #Hprod {
     left: 20%;
-    top: -62px;
+    top: -72px;
     font-size: 13px;
   }
   #HprodP {
-    left: 4%;
-    top: -92px;
-    font-size: 14px;
+    left: 6%;
+    top: -95px;
+    font-size: 13px;
   }
   .slide {
     bottom: -40px !important;
   }
   #HprodF {
-    left: -20%;
-    top: -48px;
+    left: -17%;
+    top: -53px;
   }
   #HprodF img {
     width: 37px;
     height: 37px;
   }
   #Hpes img {
-    left: 25%;
-    top: -94px;
+    left: -15%;
+    top: -60px;
   }
   .pesq {
     top: -30px;
@@ -1555,30 +1558,70 @@ li {
     left: 200px;
   }
 }
+html {
+  overflow-x: hidden;
+}
+
+.end-info {
+  bottom: 20% !important;
+}
+
 .containerEtapa {
   position: relative;
-  width: 700px;
-  height: 650px;
-  top: -10px;
-  border: 1px solid black;
+  width: 750px;
+  height: 700px;
+  top: 20px;
+  margin-bottom: 100px;
   border-radius: 20px;
   left: 28%;
+  background: green;
+}
+
+.titleEtapa {
+  position: relative;
+  top: 40px;
+  color: white;
 }
 
 .opcoes {
   position: relative;
-  right: 70%;
-  top: 60px;
+  right: 43%;
+  top: 90px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.opcoes label {
+  color: white;
+}
+.opcoes label span {
+  position: relative;
+  font-size: 30px;
+  right: 60px;
+  font-weight: 500;
+}
+.opcoes select {
+  background: #228B22;
+  color: white;
+  border: 1px solid white;
+  margin-top: 10px;
+}
+.opcoes select:active {
+  border: green;
+}
+.opcoes select span {
+  color: white;
+  border: none;
 }
 
 .AnteEtapa {
   position: absolute;
   padding: 20px;
   padding-bottom: 10px;
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 20px;
   z-index: 999;
-  bottom: -10px;
+  bottom: 10px;
   right: 60%;
   background: green;
   color: white;
@@ -1595,11 +1638,11 @@ li {
   position: absolute;
   padding: 20px;
   padding-bottom: 10px;
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 20px;
   z-index: 999;
-  bottom: -10px;
-  margin-left: 70px;
+  bottom: 10px;
+  margin-left: 140px;
   background: green;
   color: white;
 }
@@ -1615,9 +1658,8 @@ li {
   position: relative;
   width: 500px;
   height: 350px;
-  top: 40px;
-  left: 100px;
-  border: 1px solid black;
+  top: 70px;
+  left: 120px;
   border-radius: 20px;
 }
 
@@ -1627,28 +1669,99 @@ li {
   border-radius: 20px;
 }
 
-.cont- {
-  width: 500px;
-  height: 350px;
+@media (min-width: 270px) and (max-width: 550px) {
+  .end-final div {
+    position: relative;
+    bottom: 40%;
+  }
+  .containerEtapa {
+    width: 400px;
+    left: 1%;
+    top: 60px;
+  }
+  .titleEtapa {
+    font-size: 22px;
+    text-align: center;
+  }
+  .opcoes {
+    top: -20px;
+    display: flex;
+    right: -36%;
+    width: 280px;
+  }
+  .opcoes label span {
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+  }
+  .mainEtapa {
+    width: 330px;
+    left: 20px;
+  }
+  .actions {
+    position: relative;
+    bottom: 150px;
+  }
+  .AnteEtapa {
+    bottom: -50px;
+    right: 70%;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
+  .AnteEtapa span {
+    font-size: 20px;
+  }
+  .ProximoEtapa {
+    left: 28%;
+    bottom: -50px;
+    width: 110px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+  }
+  .ProximoEtapa span {
+    font-size: 20px;
+  }
 }
-
 .container-main-end {
   position: relative;
   width: 1100px;
   height: 600px;
-  border: 1px solid black;
   border-radius: 20px;
-  bottom: 20px;
+  top: 20px;
   left: 250px;
   text-align: left;
   font-weight: 600;
   font-size: 30px;
   padding-left: 30px;
+  background: green;
+  margin-bottom: 100px !important;
+}
+.container-main-end h1 {
+  position: relative;
+  text-align: center;
+  color: white;
+  font-size: 40PX;
+  top: 40px;
+}
+.container-main-end .finalizacao {
+  position: relative;
+  top: 70px;
+}
+.container-main-end div {
+  font-size: 28px;
+  color: white;
+  margin-bottom: 20px;
+  top: 100px;
+}
+.container-main-end div span span {
+  color: black;
+  font-weight: 700;
 }
 
 .frete {
   position: relative;
-  bottom: 160px;
+  top: -180px !important;
   display: flex;
   flex-direction: column;
   left: 700px;
@@ -1671,9 +1784,9 @@ li {
   position: relative;
   padding: 20px;
   padding-bottom: 10px;
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 20px;
-  bottom: 10%;
+  bottom: 14%;
   left: 80%;
   background: green;
   color: white;
@@ -1690,11 +1803,11 @@ li {
   position: absolute;
   padding: 20px;
   padding-bottom: 10px;
-  border: 1px solid black;
+  border: 3px solid white;
   border-radius: 20px;
   z-index: 999;
-  bottom: 6%;
-  right: 75%;
+  bottom: 3%;
+  right: 80%;
   background: green;
   color: white;
 }
@@ -1706,6 +1819,76 @@ li {
   background: #228B22;
 }
 
+.mensagem {
+  position: absolute;
+  top: 85% !important;
+  z-index: 999;
+  left: 35%;
+  width: 320px;
+  height: 80px;
+  border-radius: 20px;
+  border: 1px solid white;
+  text-align: left;
+  align-items: flex-start;
+}
+.mensagem span {
+  font-size: 25px;
+  color: white;
+  width: 90%;
+  height: 100%;
+  margin-left: 15px;
+  display: flex;
+  align-items: flex-start;
+}
+
+@media (min-width: 270px) and (max-width: 550px) {
+  .container-main-end {
+    top: 40px;
+    width: 340px;
+    height: 1000px;
+    left: 10px;
+    margin-bottom: 50px;
+  }
+  .container-main-end h1 {
+    font-size: 20px;
+    right: 15px;
+    top: 20px;
+  }
+  .container-main-end div {
+    font-size: 20px;
+    width: 90%;
+    text-align: center;
+  }
+  .frete {
+    top: 100px !important;
+    left: -20px;
+  }
+  .frete span {
+    left: 20px;
+    bottom: 20px;
+  }
+  .mensagem {
+    top: 73% !important;
+    width: 270px;
+    left: 5%;
+  }
+  .btn-end {
+    bottom: -30%;
+    left: 70%;
+    padding: 10px;
+  }
+  .btn-end span {
+    font-size: 20px;
+  }
+  .AnteriorEtapa {
+    bottom: 8%;
+    right: 70%;
+    padding: 10px;
+  }
+  .AnteriorEtapa span {
+    font-size: 20px;
+  }
+}
 body {
   overflow-x: hidden !important;
 }
