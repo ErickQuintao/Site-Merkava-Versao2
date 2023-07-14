@@ -1,13 +1,13 @@
 import React from "react";
 import '../css/style.css';
 import Header from "../components/principal/header/header";
-import EtapaOne from "../components/PersonalizarProduto/EtapaOne";
+import Formulario from "../components/PersonalizarProduto/Formulario";
 
 function PersonalizarProduto(){
     return(
    <div>
     <Header/>
-    <EtapaOne/>
+    <Formulario/>
    </div>
     )
 }

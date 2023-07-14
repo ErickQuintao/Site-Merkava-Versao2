@@ -3,7 +3,7 @@
     position: relative;
     width: 700px;
     height: 650px;
-    top: 60px;
+    top: -10px;
     border: 1px solid black;
     border-radius: 20px;
    left: 28%;
@@ -13,14 +13,16 @@
     right: 70%;
     top: 60px;
 }
-.AnteriorEtapa{
-    position: relative;
+
+.AnteEtapa{
+    position: absolute;
     padding: 20px;
     padding-bottom: 10px;
     border: 1px solid black;
     border-radius: 20px;
-    top: 15%;
-    right: 20%;
+    z-index: 999;
+    bottom: -10px;
+    right: 60%;
     background: $color-primary;
     color: white;
     span{
@@ -32,13 +34,14 @@
     }
 }
 .ProximoEtapa{
-    position: relative;
+    position: absolute;
     padding: 20px;
     padding-bottom: 10px;
     border: 1px solid black;
     border-radius: 20px;
-    top: 15%;
-    left: 20%;
+    z-index: 999;
+    bottom: -10px;
+     margin-left: 70px;
     background: $color-primary;
     color: white;
     span{
@@ -66,4 +69,76 @@
 .cont-{
     width: 500px;
     height: 350px;
+}
+//Etapa final
+.container-main-end{
+    position: relative;
+    width: 1100px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 20px;
+    bottom: 20px;
+    left: 250px;
+    text-align: left ;
+    font-weight: 600;
+    font-size: 30px;
+    padding-left: 30px;
+   
+}
+.frete{
+    position: relative;
+    bottom: 160px;
+    display: flex;
+    flex-direction: column;
+    left: 700px;
+    span{
+        position: relative;
+        bottom: 40px;
+    }
+    input{
+        position: relative;
+        width: 200px ;
+        height: 30px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+        padding-left: 30px;
+        left: 60px;
+    }
+}
+.btn-end{
+    position: relative;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    bottom: 10%;
+    left: 80%;
+    background: $color-primary;
+    color: white;
+    span{
+        font-size: 40px;
+    }
+    &:hover{
+        cursor: pointer;
+        background: $color-secondary;
+    }
+}
+.AnteriorEtapa{
+    position: absolute;
+    padding: 20px;
+    padding-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 20px;
+    z-index: 999;
+    bottom: 6%;
+    right: 75%;
+    background: $color-primary;
+    color: white;
+    span{
+        font-size: 40px;
+    }
+    &:hover{
+        cursor: pointer;
+        background: $color-secondary;
+    }
 }
