@@ -9,7 +9,7 @@ function PersonalizarProduto(){
    <div className="app-end">
     <Header/>
     <Formulario/>
-    <Info/>
+
    </div>
     )
 }

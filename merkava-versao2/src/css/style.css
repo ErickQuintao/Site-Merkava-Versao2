@@ -1562,171 +1562,10 @@ html {
   overflow-x: hidden;
 }
 
-.end-info {
-  bottom: 20% !important;
-}
-
-.containerEtapa {
-  position: relative;
-  width: 750px;
-  height: 700px;
-  top: 20px;
-  margin-bottom: 100px;
-  border-radius: 20px;
-  left: 28%;
-  background: green;
-}
-
-.titleEtapa {
-  position: relative;
-  top: 40px;
-  color: white;
-}
-
-.opcoes {
-  position: relative;
-  right: 43%;
-  top: 90px;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-}
-.opcoes label {
-  color: white;
-}
-.opcoes label span {
-  position: relative;
-  font-size: 30px;
-  right: 60px;
-  font-weight: 500;
-}
-.opcoes select {
-  background: #228B22;
-  color: white;
-  border: 1px solid white;
-  margin-top: 10px;
-}
-.opcoes select:active {
-  border: green;
-}
-.opcoes select span {
-  color: white;
-  border: none;
-}
-
-.AnteEtapa {
-  position: absolute;
-  padding: 20px;
-  padding-bottom: 10px;
-  border: 3px solid white;
-  border-radius: 20px;
-  z-index: 999;
-  bottom: 10px;
-  right: 60%;
-  background: green;
-  color: white;
-}
-.AnteEtapa span {
-  font-size: 40px;
-}
-.AnteEtapa:hover {
-  cursor: pointer;
-  background: #228B22;
-}
-
-.ProximoEtapa {
-  position: absolute;
-  padding: 20px;
-  padding-bottom: 10px;
-  border: 3px solid white;
-  border-radius: 20px;
-  z-index: 999;
-  bottom: 10px;
-  margin-left: 140px;
-  background: green;
-  color: white;
-}
-.ProximoEtapa span {
-  font-size: 40px;
-}
-.ProximoEtapa:hover {
-  cursor: pointer;
-  background: #228B22;
-}
-
-.mainEtapa {
-  position: relative;
-  width: 500px;
-  height: 350px;
-  top: 70px;
-  left: 120px;
-  border-radius: 20px;
-}
-
-.fotoEtapa {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-
-@media (min-width: 270px) and (max-width: 550px) {
-  .end-final div {
-    position: relative;
-    bottom: 40%;
-  }
-  .containerEtapa {
-    width: 400px;
-    left: 1%;
-    top: 60px;
-  }
-  .titleEtapa {
-    font-size: 22px;
-    text-align: center;
-  }
-  .opcoes {
-    top: -20px;
-    display: flex;
-    right: -36%;
-    width: 280px;
-  }
-  .opcoes label span {
-    font-size: 20px;
-    text-align: center;
-    width: auto;
-  }
-  .mainEtapa {
-    width: 330px;
-    left: 20px;
-  }
-  .actions {
-    position: relative;
-    bottom: 150px;
-  }
-  .AnteEtapa {
-    bottom: -50px;
-    right: 70%;
-    padding-left: 15px;
-    padding-top: 10px;
-  }
-  .AnteEtapa span {
-    font-size: 20px;
-  }
-  .ProximoEtapa {
-    left: 28%;
-    bottom: -50px;
-    width: 110px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-top: 10px;
-  }
-  .ProximoEtapa span {
-    font-size: 20px;
-  }
-}
-.container-main-end {
+.container-form {
   position: relative;
   width: 1100px;
-  height: 600px;
+  height: 680px;
   border-radius: 20px;
   top: 20px;
   left: 250px;
@@ -1737,158 +1576,103 @@ html {
   background: green;
   margin-bottom: 100px !important;
 }
-.container-main-end h1 {
+
+.header-form h1 {
   position: relative;
   text-align: center;
   color: white;
   font-size: 40PX;
-  top: 40px;
-}
-.container-main-end .finalizacao {
-  position: relative;
-  top: 70px;
-}
-.container-main-end div {
-  font-size: 28px;
-  color: white;
-  margin-bottom: 20px;
-  top: 100px;
-}
-.container-main-end div span span {
-  color: black;
-  font-weight: 700;
+  bottom: 630px;
 }
 
-.frete {
+.loop-form {
   position: relative;
-  top: -180px !important;
-  display: flex;
-  flex-direction: column;
-  left: 700px;
+  top: 60px;
+  width: 400px;
+  height: 600px;
+  border: 1px solid white;
+  border-radius: 20px;
 }
-.frete span {
+
+.divs-form {
   position: relative;
-  bottom: 40px;
+  bottom: 650px;
+  left: 430px;
+  width: 640px;
+  height: 600px;
+  border: 1px solid white;
+  border-radius: 20px;
 }
-.frete input {
+.divs-form div {
   position: relative;
+  top: 50px;
+  right: 480px;
+}
+.divs-form div label {
+  font-size: 35px;
+  color: white;
+}
+.divs-form div select {
   width: 200px;
-  height: 30px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  padding-left: 30px;
-  left: 60px;
-}
-
-.btn-end {
-  position: relative;
-  padding: 20px;
-  padding-bottom: 10px;
-  border: 3px solid white;
-  border-radius: 20px;
-  bottom: 14%;
-  left: 80%;
-  background: green;
-  color: white;
-}
-.btn-end span {
-  font-size: 40px;
-}
-.btn-end:hover {
-  cursor: pointer;
+  padding-left: 50px;
   background: #228B22;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+}
+.divs-form div select option {
+  padding-left: 50px;
+}
+.divs-form div .div-form1 {
+  padding-left: 40px;
+}
+.divs-form div .div-form2 {
+  padding-left: 65px;
+}
+.divs-form div .div-form3 {
+  padding-left: 70px;
+}
+.divs-form div input {
+  position: relative;
+  bottom: 55px;
+  left: 510px;
+  width: 180PX;
+  height: 30PX;
+  border-radius: 20PX;
+  border: none;
+  padding-left: 10px;
 }
 
-.AnteriorEtapa {
-  position: absolute;
-  padding: 20px;
-  padding-bottom: 10px;
+.enviar {
+  width: 220px;
+  height: 50px;
+  position: relative;
   border: 3px solid white;
   border-radius: 20px;
-  z-index: 999;
-  bottom: 3%;
-  right: 80%;
+  bottom: 104%;
+  left: 76%;
   background: green;
   color: white;
 }
-.AnteriorEtapa span {
-  font-size: 40px;
+.enviar span {
+  position: relative;
+  font-size: 30px;
 }
-.AnteriorEtapa:hover {
+.enviar:hover {
   cursor: pointer;
   background: #228B22;
 }
 
 .mensagem {
-  position: absolute;
-  top: 85% !important;
-  z-index: 999;
-  left: 35%;
-  width: 320px;
-  height: 80px;
-  border-radius: 20px;
+  position: relative;
+  bottom: 120%;
+  left: 45%;
+  width: 250px;
+  height: 100px;
   border: 1px solid white;
-  text-align: left;
-  align-items: flex-start;
-}
-.mensagem span {
-  font-size: 25px;
-  color: white;
-  width: 90%;
-  height: 100%;
-  margin-left: 15px;
-  display: flex;
-  align-items: flex-start;
+  border-radius: 20px;
 }
 
-@media (min-width: 270px) and (max-width: 550px) {
-  .container-main-end {
-    top: 40px;
-    width: 340px;
-    height: 1000px;
-    left: 10px;
-    margin-bottom: 50px;
-  }
-  .container-main-end h1 {
-    font-size: 20px;
-    right: 15px;
-    top: 20px;
-  }
-  .container-main-end div {
-    font-size: 20px;
-    width: 90%;
-    text-align: center;
-  }
-  .frete {
-    top: 100px !important;
-    left: -20px;
-  }
-  .frete span {
-    left: 20px;
-    bottom: 20px;
-  }
-  .mensagem {
-    top: 73% !important;
-    width: 270px;
-    left: 5%;
-  }
-  .btn-end {
-    bottom: -30%;
-    left: 70%;
-    padding: 10px;
-  }
-  .btn-end span {
-    font-size: 20px;
-  }
-  .AnteriorEtapa {
-    bottom: 8%;
-    right: 70%;
-    padding: 10px;
-  }
-  .AnteriorEtapa span {
-    font-size: 20px;
-  }
-}
 body {
   overflow-x: hidden !important;
 }

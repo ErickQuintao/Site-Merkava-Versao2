@@ -3,170 +3,10 @@ html{
     overflow-x: hidden;
 }
 
-.end-info{
-bottom: 20% !important;
-}
-.containerEtapa{
-    position: relative;
-    width: 750px;
-    height: 700px;
-    top: 20px;
-    margin-bottom: 100px ;
-    border-radius: 20px;
-   left: 28%;
-   background: $color-primary;
-}
-.titleEtapa{
-    position: relative;
-    top: 40px;
-    color: white;
-}
-.opcoes{
-    position: relative;
-    right: 43%;
-    top: 90px;
-    text-align: left;
-   display: flex;
-   flex-direction: column;
- 
-   label{
-    color: white;
-    span{
-        position: relative;
-        font-size: 30px;
-        right: 60px ;
-        font-weight: 500;
-    }
-    }
-   select{
-    background: $color-secondary;
-    color: white;
-    border: 1px solid white;
-    margin-top: 10px;
-        &:active{
-            border: $color-primary;
-        }
-    span{
-        color: white;
-        border: none;
-    }
-   }
-}
-
-.AnteEtapa{
-    position: absolute;
-    padding: 20px;
-    padding-bottom: 10px;
-    border: 3px solid white;
-    border-radius: 20px;
-    z-index: 999;
-    bottom: 10px;
-    right: 60%;
-    background: $color-primary;
-    color: white;
-    span{
-        font-size: 40px;
-    }
-    &:hover{
-        cursor: pointer;
-        background: $color-secondary;
-    }
-}
-.ProximoEtapa{
-    position: absolute;
-    padding: 20px;
-    padding-bottom: 10px;
-    border:3px solid white;
-    border-radius: 20px;
-    z-index: 999;
-    bottom: 10px;
-     margin-left: 140px;
-    background: $color-primary;
-    color: white;
-    span{
-        font-size: 40px;
-    }
-    &:hover{
-        cursor: pointer;
-        background: $color-secondary;
-    }
-}
-.mainEtapa{
-    position: relative;
-    width: 500px;
-    height: 350px;
-    top: 70px;
-    left: 120px;
-
-    border-radius: 20px;
-}
-.fotoEtapa{
-    width: 100%;
-    height: 100%;
-    border-radius: 20px;
-}
-@media (min-width:270px) and  (max-width: 550px){
-   .end-final div{
-    position: relative;
-    bottom: 40%;
-   }
-    .containerEtapa{
-        width: 400px;
-        left: 1%;
-        top: 60px;
-    }
-    .titleEtapa{
-        font-size: 22px;
-        text-align: center;
-    }
-    .opcoes{
-        top: -20px;
-        display: flex;
-      right: -36%;
-      width: 280px;
-        label{
-            span{
-                font-size: 20px;
-                text-align: center;
-                width: auto;
-            }
-        }
-    }
-    .mainEtapa{
-        width: 330px;
-        left: 20px;
-    }
-    .actions{
-        position: relative;
-        bottom: 150px;
-    }
-    .AnteEtapa{
-        bottom: -50px;
-            right: 70%;
-            padding-left: 15px;
-            padding-top: 10px;
-        span{
-            font-size: 20px;
-        }
-    }
-    .ProximoEtapa{
-        left: 28%;
-        bottom: -50px;
-        width: 110px;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 10px;
-    span{
-        font-size: 20px;
-    }
-    }
-
-}
-//Etapa final
-.container-main-end{
+.container-form{
     position: relative;
     width: 1100px;
-    height: 600px;
+    height: 680px;
     border-radius: 20px;
     top: 20px;
     left: 250px;
@@ -176,79 +16,90 @@ bottom: 20% !important;
     padding-left: 30px;
    background:  $color-primary;
    margin-bottom: 100px !important;
-   h1{
-    position: relative;
-    text-align: center;
-    color: white;
-    font-size: 40PX;
-    top: 40px;
-   }
-   .finalizacao{
-    position: relative;
-    top: 70px;
-   }
-   div{
-    font-size: 28px;
-    color: white;
-    margin-bottom: 20px;
-     top: 100px;
-    span span{
-        color: black;
-        font-weight: 700;
-    }
-   }
+ 
 }
-.frete{
-    position: relative;
-    top: -180px !important;
-    display: flex;
-    flex-direction: column;
-    left: 700px;
-    span{
+.header-form{
+    h1{
         position: relative;
-        bottom: 40px;
-    }
-    input{
-        position: relative;
-        width: 200px ;
-        height: 30px;
-        border-radius: 10px;
-        margin-bottom: 20px;
-        padding-left: 30px;
-        left: 60px;
-    }
+        text-align: center;
+        color: white;
+        font-size: 40PX;
+        bottom: 630px;
+       }
 }
-.btn-end{
+.loop-form{
     position: relative;
-    padding: 20px;
-    padding-bottom: 10px;
+    top: 60px;
+    width: 400px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.divs-form{
+    position: relative;
+    bottom: 650px;
+    left: 430px;
+    width: 640px;
+    height: 600px;
+    border: 1px solid white;
+    border-radius: 20px;
+    div{
+        position: relative;
+        top: 50px;
+        right: 480px;
+        
+        label{
+            font-size: 35px;
+            color: white;
+        }
+        select{
+            width: 200px;
+            padding-left: 50px;
+            background: $color-secondary;
+            border: 1px solid white;
+            color: white;
+            font-weight: 600;
+            option{
+                padding-left: 50px;
+            }
+        }
+        .div-form1{
+            padding-left: 40px;
+        }
+        .div-form2{
+            padding-left: 65px;
+        }
+        .div-form3{
+            padding-left: 70px;
+        }
+        input{
+            position: relative;
+            bottom: 55px;
+            left: 510px;
+            width: 180PX;
+            height: 30PX;
+            border-radius: 20PX;
+            border: none;
+            padding-left: 10px;
+
+        }
+    }
+    
+}
+.enviar{
+    width: 220px;
+    height: 50px;
+    position: relative;
     border: 3px solid white;
     border-radius: 20px;
-    bottom: 14%;
-    left: 80%;
+    bottom:104%;
+    left: 76%;
     background: $color-primary;
     color: white;
     span{
-        font-size: 40px;
-    }
-    &:hover{
-        cursor: pointer;
-        background: $color-secondary;
-    }
-}
-.AnteriorEtapa{
-    position: absolute;
-    padding: 20px;
-    padding-bottom: 10px;
-    border: 3px solid white;
-    border-radius: 20px;
-    z-index: 999;
-    bottom: 3%;
-    right: 80%;
-    background: $color-primary;
-    color: white;
-    span{
-        font-size: 40px;
+        position: relative;
+        font-size: 30px;
+        
     }
     &:hover{
         cursor: pointer;
@@ -256,71 +107,11 @@ bottom: 20% !important;
     }
 }
 .mensagem{
-    position: absolute;
-   top: 85% !important;
-  z-index: 999;
-   left: 35%;
-    width: 320px;
-    height: 80px;
-    border-radius: 20px;
+    position: relative;
+    bottom: 120%;
+    left: 45%;
+    width: 250px;
+    height: 100px;
     border: 1px solid white;
-    text-align: left;
-    align-items: flex-start;
-    span{
-        font-size: 25px;
-        color: white;
-        width: 90%;
-        height: 100%;
-        margin-left: 15px;
-        display: flex;
-        align-items: flex-start;
-    }
-}
-@media (min-width:270px) and  (max-width: 550px){
-    .container-main-end{
-        top: 40px;
-        width: 340px;
-        height: 1000px;
-        left: 10px;
-        margin-bottom: 50px;
-        h1{
-            font-size: 20px ;
-            right: 15px;
-            top: 20px;
-        }
-        div{
-            font-size: 20px;
-            width: 90%;
-            text-align: center;
-        }
-    }
-    .frete{
-        top: 100px !important;
-    left: -20px;
-    span{
-        left: 20px;
-        bottom: 20px;
-    }
-    }
-    .mensagem{
-        top: 73% !important;
-        width: 270px;
-        left: 5%;
-    }
-    .btn-end{
-        bottom: -30%;
-        left: 70%;
-        padding: 10px;
-    span{
-        font-size: 20px;
-    }
-}
-.AnteriorEtapa{
-    bottom: 8%;
-    right: 70%;
-    padding: 10px;
-span{
-    font-size: 20px;
-}
-}
+    border-radius: 20px;
 }
