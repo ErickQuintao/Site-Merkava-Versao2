@@ -1590,8 +1590,14 @@ html {
   top: 60px;
   width: 400px;
   height: 600px;
-  border: 1px solid white;
   border-radius: 20px;
+}
+
+.imgs-loop {
+  width: 400px;
+  height: 600px;
+  border-radius: 20px;
+  border: 3px solid #228B22;
 }
 
 .divs-form {
@@ -1671,6 +1677,12 @@ html {
   height: 100px;
   border: 1px solid white;
   border-radius: 20px;
+}
+.mensagem span {
+  position: relative;
+  left: 10px;
+  font-size: 23px;
+  width: 200px !important;
 }
 
 body {
