@@ -162,7 +162,7 @@ const [indiceImagem, setIndiceImagem] = useState(0);
 useEffect(() => {
   const timeout = setTimeout(() => {
     setIndiceImagem((indice) => (indice + 1) % imgsLoops.length);
-  }, 1500);
+  }, 2000);
 
   return () => {
     clearTimeout(timeout);
@@ -278,7 +278,7 @@ function gotowhatsapp() {
       </div>
    {  verdade === 2 && verdade1 ===2 && verdade2 ===2 && verdade3 ===2&&(
         <button className="enviar" onClick={gotowhatsapp}><span>Enviar</span></button>
-   )};   
+   )}   
          <div className="mensagem">
            <span>{validation}</span>
          </div>
