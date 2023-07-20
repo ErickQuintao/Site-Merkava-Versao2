@@ -1683,14 +1683,14 @@ html {
   position: relative;
   left: 10px;
   font-size: 23px;
-  width: 200px !important;
+  width: 200px;
 }
 
 @media (min-width: 270px) and (max-width: 550px) {
   .container-form {
     top: 50px;
-    width: 350px;
-    left: 10px;
+    width: 380px;
+    left: 0px;
     height: 1900px;
   }
   .header-form h1 {
@@ -1700,12 +1700,13 @@ html {
   .loop-form {
     width: 300px;
     right: 30px;
+    top: 1240px;
   }
   .imgs-loop {
     width: 375px;
   }
   .divs-form {
-    bottom: 120px;
+    bottom: 770px;
   }
   .divs-form div {
     right: 420px;
@@ -1713,6 +1714,7 @@ html {
   }
   .divs-form div label {
     font-size: 28px;
+    left: 10px;
   }
   .divs-form div select {
     width: 200px;
@@ -1721,23 +1723,25 @@ html {
     display: flex;
     justify-content: flex-start;
     z-index: 9999;
+    left: 20px;
   }
   .divs-form div select option {
     width: 100px;
   }
   .divs-form div input {
     bottom: -100px;
-    left: -10px;
+    left: 20px;
     display: flex;
     justify-content: flex-start;
     z-index: 9999;
   }
   .mensagem {
+    margin-top: 40px;
     left: 10%;
-    bottom: -18%;
+    bottom: 16%;
   }
   .enviar {
-    bottom: -27%;
+    bottom: 5%;
     left: 14%;
   }
 }

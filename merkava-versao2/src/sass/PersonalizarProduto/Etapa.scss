@@ -124,14 +124,14 @@ html{
         position: relative;
         left: 10px;
         font-size: 23px;
-        width: 200px !important;
+        width: 200px ;
     }
 }
 @media (min-width:270px) and  (max-width: 550px){
     .container-form{
         top: 50px;
-        width: 350px;
-        left: 10px;
+        width: 380px;
+        left: 0px;
         height: 1900px;
     }
     .header-form{
@@ -143,18 +143,19 @@ html{
 .loop-form{
     width: 300px;
     right: 30px;
+    top: 1240px;
 }
 .imgs-loop{
     width: 375px;
 }
 .divs-form{
-    bottom: 120px;
+    bottom: 770px;
     div{
         right: 420px;
         margin-bottom: 40px;
         label{
             font-size: 28px;
-
+            left: 10px;
         }
         select{
             width: 200px;
@@ -163,13 +164,14 @@ html{
             display: flex;
             justify-content: flex-start;
             z-index: 9999;
+            left: 20px;
             option{
                 width: 100px;
             }
         }
         input{
             bottom: -100px;
-            left: -10px;
+            left: 20px;
             display: flex;
             justify-content: flex-start;
             z-index: 9999;
@@ -177,11 +179,12 @@ html{
     }
 }
 .mensagem{
+    margin-top: 40px;
     left: 10%;
-    bottom: -18%;
+    bottom: 16%;
 }
 .enviar{
-    bottom: -27%;
+    bottom: 5%;
     left: 14%;
 }
 }
