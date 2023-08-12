@@ -91,7 +91,7 @@
 /*Pesquisa */
 #Hpes img {
   position: relative;
-  left: 34%;
+  left: 32%;
   width: 25px;
   height: 25px;
   top: -72px;
@@ -99,7 +99,7 @@
 
 #HprodF {
   position: relative;
-  left: 33%;
+  left: 32%;
   font-weight: 700;
   font-size: 15px;
   top: -62px;
@@ -444,9 +444,9 @@
 
 .text-best-selling {
   position: relative;
-  width: 800px;
+  width: 720px;
   height: 300px;
-  left: 49%;
+  left: 45%;
   bottom: 52%;
   font-weight: 500;
   font-size: 20px;
@@ -528,7 +528,7 @@
   position: relative;
   font-size: 35px;
   height: 60px;
-  left: 30%;
+  left: 17%;
   width: 100%;
   margin-right: 20%;
 }
@@ -541,13 +541,13 @@
   width: 100%;
   height: 600px;
   flex-direction: row;
-  left: 10%;
+  left: 2%;
 }
 
 .video {
   width: 390px;
   height: 340px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: -5px 0px 5px rgba(0, 0, 0, 0.2), 5px 0px 5px rgba(0, 0, 0, 0.2), 0px 5px 5px rgba(0, 0, 0, 0.2);
 }
 .video:hover {
@@ -701,7 +701,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 480px;
+  bottom: 570px;
 }
 
 .fim-two {
@@ -709,7 +709,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 460px;
+  bottom: 550px;
 }
 
 .fim-three {
@@ -717,7 +717,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 440px;
+  bottom: 530px;
 }
 
 .fim-four {
@@ -725,7 +725,7 @@
   width: 300px;
   height: 100px;
   left: 55%;
-  bottom: 420px;
+  bottom: 510px;
 }
 
 .gvtnine {
@@ -786,7 +786,7 @@
   color: white;
   font-size: 20px;
   left: 25%;
-  bottom: 420px;
+  bottom: 530px;
   font-size: 25px;
 }
 
@@ -955,7 +955,7 @@
   font-size: 20px;
   font-family: "Segoe UI";
   text-decoration: none;
-  right: 700px;
+  right: 400px;
 }
 
 .cat-cat {
@@ -963,7 +963,7 @@
   color: white;
   margin-left: 80px;
   top: 30px;
-  left: -740px;
+  left: -440px;
   font-weight: 700;
   font-size: 20px;
   font-family: "Segoe UI";
@@ -992,7 +992,7 @@
 .h2-cat {
   position: relative;
   color: black;
-  left: -28%;
+  left: -24%;
   top: -1%;
   font-weight: 700;
   font-size: 20px;
@@ -1058,8 +1058,8 @@
   flex-direction: row;
   position: absolute;
   width: 70%;
-  margin-left: 25%;
-  top: 50%;
+  margin-left: 9%;
+  top: 70%;
 }
 .order img {
   width: 280px !important;
@@ -1158,21 +1158,16 @@ h3 {
   position: relative;
   width: 70%;
   height: 680px;
-  left: 120px;
+  left: 80px;
   top: 10px;
-}
-
-.carousel div {
-  width: 650px;
-  height: 870px;
 }
 
 .btn-slider {
   position: relative;
   display: flex;
   flex-direction: column;
-  right: 200px;
-  bottom: 790px;
+  right: 100px;
+  bottom: 670px;
   margin-bottom: 5px;
   border: none;
 }
@@ -1188,8 +1183,8 @@ h3 {
 
 .prod-h1 {
   position: relative;
-  left: 520px;
-  bottom: 500px;
+  left: 290px;
+  bottom: 640px;
   font-weight: 700;
   font-size: 35px;
   font-family: "Segoe UI";
@@ -1199,8 +1194,8 @@ h3 {
 #txt-cf5 {
   position: absolute;
   width: 36%;
-  bottom: 60px;
-  left: 1050px;
+  bottom: 30px;
+  left: 750px;
   font-size: 20px;
   font-family: "Segoe UI";
   font-weight: 500;
@@ -1208,15 +1203,15 @@ h3 {
 
 label {
   position: relative;
-  left: 500px;
-  top: -50px;
+  left: 300px;
+  top: -350px;
   font-size: 20px;
 }
 
 select {
   position: relative;
-  left: 530px;
-  top: -50px;
+  left: 330px;
+  top: -350px;
   width: 330px;
   height: 40px;
   border-radius: 10px;
@@ -1228,8 +1223,8 @@ select {
   position: relative;
   height: 70px;
   width: 250px;
-  left: 1220px;
-  top: -20px;
+  left: 900px;
+  top: -320px;
   border-radius: 10px;
   background-color: gray;
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
@@ -1380,7 +1375,7 @@ select {
 
 .infad {
   position: relative;
-  left: -585px;
+  left: -430px;
   bottom: 39px;
   text-decoration: none;
   color: GRAY;
@@ -1392,12 +1387,12 @@ select {
 
 .linha1 {
   top: 82px;
-  left: 30px;
+  left: 50px;
 }
 
 .des {
   position: relative;
-  left: -760px;
+  left: -600px;
   top: -17px;
   text-decoration: none;
   color: gray;
@@ -1422,7 +1417,7 @@ select {
   position: relative;
   width: 205px;
   background-color: #228B22;
-  height: 4px;
+  height: 6px;
   left: 140px;
   bottom: 45PX;
 }
@@ -1452,7 +1447,7 @@ select {
   margin-left: 40px;
   font-size: 20px;
   font-family: "Segoe UI";
-  right: 530px;
+  right: 370px;
 }
 
 .informacao {
@@ -1460,7 +1455,7 @@ select {
   margin-left: 40px;
   font-size: 20px;
   font-family: "Segoe UI";
-  right: 780px;
+  right: 600px;
 }
 
 .hidden {
@@ -1582,7 +1577,8 @@ html {
   text-align: center;
   color: white;
   font-size: 40PX;
-  bottom: 630px;
+  bottom: 580px;
+  left: 200px;
 }
 
 .loop-form {
@@ -1611,8 +1607,8 @@ html {
 }
 .divs-form div {
   position: relative;
-  top: 50px;
-  right: 480px;
+  top: 380px;
+  right: 280px;
 }
 .divs-form div label {
   font-size: 35px;
@@ -1641,8 +1637,8 @@ html {
 }
 .divs-form div input {
   position: relative;
-  bottom: 55px;
-  left: 510px;
+  bottom: 360px;
+  left: 310px;
   width: 180PX;
   height: 30PX;
   border-radius: 20PX;
@@ -1671,9 +1667,9 @@ html {
 }
 
 .mensagem {
-  position: relative;
-  bottom: 115%;
-  left: 45%;
+  position: absolute;
+  bottom: 4%;
+  left: 43%;
   width: 250px;
   height: 100px;
   border: 1px solid white;
@@ -1696,6 +1692,7 @@ html {
   .header-form h1 {
     bottom: 620px;
     font-size: 25px;
+    left: -10px;
   }
   .loop-form {
     width: 300px;
@@ -1706,7 +1703,7 @@ html {
     width: 375px;
   }
   .divs-form {
-    bottom: 770px;
+    bottom: 1070px;
   }
   .divs-form div {
     right: 420px;
@@ -1738,7 +1735,7 @@ html {
   .mensagem {
     margin-top: 40px;
     left: 10%;
-    bottom: 16%;
+    bottom: 39%;
   }
   .enviar {
     bottom: 5%;

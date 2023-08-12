@@ -18,20 +18,19 @@
     position: relative;
     width: 70% ;
     height: 680px ;
-    left: 120px;
+    left: 80px;
     top: 10px  ;
 }
 .carousel div{
-    width: 650px;
-    height: 870px ;
+    
 }
 
 .btn-slider{
     position: relative;
     display: flex;
     flex-direction: column;
-    right: 200px;
-    bottom: 790px;
+    right: 100px;
+    bottom:670px;
     margin-bottom: 5px;
     border: none;
     img{
@@ -48,8 +47,8 @@
  
 .prod-h1{
     position: relative;
-    left: 520px;
-    bottom: 500px;
+    left: 290px;
+    bottom: 640px;
     font-weight: 700;
 	font-size: 35px;
 	font-family: "Segoe UI";
@@ -58,22 +57,22 @@
 #txt-cf5{
     position: absolute;
     width: 36%;
-    bottom: 60px;
-    left: 1050px;
+    bottom: 30px;
+    left: 750px;
     font-size: 20px;
     font-family: "Segoe UI";
     font-weight: 500;
 }
 label{
     position: relative;
-    left: 500px;
-    top: -50px;
+    left: 300px;
+    top: -350px;
     font-size: 20px;
 }
 select{
     position: relative;
-    left: 530px;
-    top: -50px;
+    left: 330px;
+    top: -350px;
     width: 330px;
     height: 40px;
     border-radius: 10px;
@@ -84,8 +83,8 @@ select{
 	position: relative;
 	height: 70px;
 	width: 250px;
-	left: 1220px;
-	top:-20px;
+	left: 900px;
+	top:-320px;
 	border-radius: 10px;
 	background-color: gray;
 	box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);

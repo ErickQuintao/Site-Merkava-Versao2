@@ -9,7 +9,7 @@ import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
 import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
 import imgCf9 from '../../../fotos/cf-9gvt.jpg';
 import imgCf3 from '../../../fotos/cf-3-gvt.jpeg';
-
+import logo from '../../../fotos/logo-fm.jpeg';
 import whatsapp from '../../../fotos/icons8-whatsapp.gif';
 
 function Header() {
@@ -23,7 +23,7 @@ function Header() {
             <a href="./faleConosco.html" className="iconY"><img src={imgYou}className="icon-you" alt="YouTube" /></a>
           </div>
           <header id="header">
-            <a href="./index.html"><img src="https://merkavaferramentas.com.br/wp-content/uploads/2022/07/200x34.png" id="IconEmpresa" alt="Logo" /></a>
+            <a href="./index.html"><img src={logo} id="IconEmpresa" alt="Logo" /></a>
           
             <a  href={`/`} style={{ textDecoration: 'none' }} id="Home" >HOME</a>
           <a href={`/NossoProduto`} style={{ textDecoration: 'none' }} id="Hprod">NOSSOS PRODUTOS</a> 

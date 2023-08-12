@@ -7,7 +7,7 @@
 }
 .infad{
 	position: relative;
-	left: -585px;
+	left: -430px;
 	bottom: 39px;
 	text-decoration: none;
 	color: GRAY;
@@ -18,11 +18,11 @@
 }
 .linha1{
 	top: 82px;
-left: 30px;
+left: 50px;
 }
 .des{
 	position: relative;
-	left: -760px;
+	left: -600px;
 	top: -17px;
 	text-decoration: none;
 	color: gray;
@@ -45,10 +45,11 @@ left: 30px;
 	position: relative;
 	width: 205px;
 	background-color: $color-secondary;
-	height: 4px;
+	height: 6px;
 	left: 140px;
 	bottom: 45PX;
 }
+
 .pri1{
 display: block;
 &:hover .linha2 {
@@ -73,14 +74,14 @@ display: block;
 	margin-left: 40px;
 	font-size: 20px;
 	font-family: "Segoe UI";
-    right: 530px;
+    right: 370px;
 }
 .informacao{
 	position: relative;
 	margin-left: 40px;
 	font-size: 20px;
 	font-family: "Segoe UI";
-	right: 780px;
+	right: 600px;
 }
 .hidden{
 	display: none;

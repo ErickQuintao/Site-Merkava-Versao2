@@ -24,7 +24,8 @@ html{
         text-align: center;
         color: white;
         font-size: 40PX;
-        bottom: 630px;
+        bottom: 580px;
+        left: 200px;
        }
 }
 .loop-form{
@@ -50,8 +51,8 @@ html{
     border-radius: 20px;
     div{
         position: relative;
-        top: 50px;
-        right: 480px;
+        top:380px;
+        right: 280px;
         
         label{
             font-size: 35px;
@@ -80,8 +81,8 @@ html{
         }
         input{
             position: relative;
-            bottom: 55px;
-            left: 510px;
+            bottom:360px;
+            left: 310px;
             width: 180PX;
             height: 30PX;
             border-radius: 20PX;
@@ -113,9 +114,9 @@ html{
     }
 }
 .mensagem{
-    position: relative;
-    bottom: 115%;
-    left: 45%;
+    position: absolute;
+    bottom: 4%;
+    left: 43%;
     width: 250px;
     height: 100px;
     border: 1px solid white;
@@ -138,6 +139,7 @@ html{
         h1{
             bottom: 620px;
             font-size: 25px;
+            left: -10px;
         }
 }
 .loop-form{
@@ -149,7 +151,7 @@ html{
     width: 375px;
 }
 .divs-form{
-    bottom: 770px;
+    bottom: 1070px;
     div{
         right: 420px;
         margin-bottom: 40px;
@@ -181,7 +183,7 @@ html{
 .mensagem{
     margin-top: 40px;
     left: 10%;
-    bottom: 16%;
+    bottom: 39%;
 }
 .enviar{
     bottom: 5%;
