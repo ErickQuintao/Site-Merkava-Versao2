@@ -18,17 +18,17 @@ function Header() {
         <div className="header-princip">
           <div className="divulgacao">
             <p id="pd">FERRAMENTAS EXTREMAMENTE REFORÇADA DE ALTA RESISTÊNCIA E DURABILIDADE</p>
-            <a href="./faleConosco.html" className="iconY"><img src={imgFace} className="icon-fac" alt="Facebook" /></a>
-            <a href="./faleConosco.html" className="iconY"><img src={imgInsta} className="icon-ins"/></a>
-            <a href="./faleConosco.html" className="iconY"><img src={imgYou}className="icon-you" alt="YouTube" /></a>
+            <a href={`/`} className="iconY"><img src={imgFace} className="icon-fac" alt="Facebook" /></a>
+            <a href={`/`} className="iconY"><img src={imgInsta} className="icon-ins"/></a>
+            <a href={`/`} className="iconY"><img src={imgYou}className="icon-you" alt="YouTube" /></a>
           </div>
           <header id="header">
-            <a href="./index.html"><img src={logo} id="IconEmpresa" alt="Logo" /></a>
+            <a href={`/`}><img src={logo} id="IconEmpresa" alt="Logo" /></a>
           
             <a  href={`/`} style={{ textDecoration: 'none' }} id="Home" >HOME</a>
           <a href={`/NossoProduto`} style={{ textDecoration: 'none' }} id="Hprod">NOSSOS PRODUTOS</a> 
           <a href={`/PersonalizarMeuProduto`} style={{ textDecoration: 'none' }} id="HprodP">PERSONALIZAR PRODUTO</a> 
-            <a href={"https://linkwhats.app/06a04a"} style={{ textDecoration: 'none' }} id="HprodF"><img src={whatsapp}/></a>
+            <a href={"https://linkwhats.app/06a04a"} target='_blank' style={{ textDecoration: 'none' }} id="HprodF"><img src={whatsapp}/></a>
             <a style={{ textDecoration: 'none' }} href="./" id="Hpes">
               <img className="img-pesq4" src={imgPesq} alt="Pesquisa" onMouseOver={exibirPesq} />
             </a>
