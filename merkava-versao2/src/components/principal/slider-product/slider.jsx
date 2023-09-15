@@ -1,95 +1,80 @@
+
 import React from'react';
 import '../../../css/style.css';
-import c9gvt1 from '../../../fotos/cf-9gvt.jpg';
-import c9gvt2 from '../../../fotos/c-9gvt (2).jpeg';
-import c9gvt3 from '../../../fotos/c-9gvt(3.jpeg';
-import cf3gvt from '../../../fotos/Bancada-900mm-4gvt.png';
-import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
-import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
-import img1Cf5 from '../../../fotos/cf5-2.jpeg';
-import img2Cf5 from '../../../fotos/cf5-3.jpeg';
-import img3Cf5 from '../../../fotos/cf5-4.jpeg';
-import c7gvtVideo from '../../../fotos/video-7gvt.mp4';
+import foto1 from '../../../fotos/loop/foto-1.jpeg';
+import foto2 from '../../../fotos/loop/foto-2.jpeg';
+import foto3 from '../../../fotos/loop/foto-3.jpeg';
+import foto4 from '../../../fotos/loop/foto-4.jpeg';
+import foto5 from '../../../fotos/loop/foto-5.jpeg';
+import foto6 from '../../../fotos/loop/foto-6.jpeg';
+import foto7 from '../../../fotos/loop/foto-7.jpeg';
+import foto8 from '../../../fotos/loop/foto-8.jpeg';
+import foto9 from '../../../fotos/loop/foto-9.jpeg';
+import foto10 from '../../../fotos/loop/foto-10.jpeg';
+import foto11 from '../../../fotos/loop/foto-1.jpeg';
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
-
-
-import Flicking from "@egjs/react-flicking";
-import "@egjs/react-flicking/dist/flicking.css";
-// Or, if you have to support IE9
-import "@egjs/react-flicking/dist/flicking-inline.css";
-export default () => {
-
-
-  return <>
-  <div className="container">
-      <div className="flicking-panel nested-wide vertical">
-      <a href={`/CaixaFerramenta3gvt`} className="card-btn">
-      <Flicking inputType={["touch", "mouse"]} 
-    align= {"prev"}  className="Item"  bounce="0" bound={true}  autoResize={true}  nested={true}>
+export default function SimpleSlider() {
+  var settings = {
+    dots: true,
+    infinite: true,
+    speed: 3000,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    focoOnSelect:true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 710,
+      settings: {
+        slidesToShow: 1,
+        autoplaySpeed: 5000
+      }
+    }
+  ]
+  };
+  return (
+    <div>
+    <Slider {...settings}>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto1}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto2}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto3}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto4}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto5}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto6}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto7}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto8}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto9}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto10}></img>
+      </div>
+      <div className='container flicking-panel'>
+        <img className='imgProduct item current-item' src={foto11}></img>
+      </div>
       
-          <div className="flicking-panel">    
-          <img className="imgProduct item current-item"  src={cf3gvt} >
-          </img> 
-            </div>
-
-          <div className="flicking-panel title-special">Caixa de Ferramenta 3 gavetas</div>
-        </Flicking>
-        </a>
-      </div>
-
-      <div className="flicking-panel nested-wide vertical">
-      <a href={`/CaixaFerramenta5gvt`} className="card-btn">
-      <Flicking inputType={["touch", "mouse"]} 
-    align= {"prev"} autoResize={true}  className="Item" bounce="1" bound={true} nested={true}>
-      
-          <div className="flicking-panel"><img className="imgProduct item current-item"  src={imgCf5} >
-            </img> </div>
-            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img1Cf5} >
-            </img> </div>
-            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img2Cf5} >
-            </img> </div>
-            <div className="flicking-panel"><img className="imgProduct item current-item"  src={img3Cf5} >
-            </img> </div>
-          <div className="flicking-panel  title-special">Caixa de Ferramenta 5 gaveta</div>
-         
-        </Flicking>
-        </a>
-      </div>
-      <div className="flicking-panel nested-wide vertical">
-      <a href={`/CaixaFerramenta7gvt`} className="card-btn">
-      <Flicking inputType={["touch", "mouse"]} 
-    align= {"prev"} autoResize={true}  className="Item" bounce="2" bound={true} nested={true}>
-     
-          <div className="flicking-panel"> 
-          <img className="imgProduct item current-item"  src={imgCf7} ></img>
-          </div>
-          <div className="flicking-panel">
-          <video className="imgProduct item current-item" controls>
-              <source src={c7gvtVideo} type="video/mp4" />
-              Seu Browser nao suporta este video
-            </video>
-          </div>
-          <div className="flicking-panel title-special">Caixa de Ferramenta 7 gavetas</div>
-        
-          
-        </Flicking>
-        </a>
-      </div>
-      <div className="flicking-panel nested-wide vertical">
-      <a href={`/CaixaFerramenta9gvt`} className="card-btn">
-        
-      <Flicking inputType={["touch", "mouse"]} 
-    align= {"prev"} autoResize={true}  className="Item" bounce="3" bound={true} nested={true}>
-      
-          <div className="flicking-panel"> <img className="imgProduct item current-item "  src={c9gvt1} ></img> </div>
-          <div className="flicking-panel"><img className="imgProduct item current-item "  src={c9gvt2} ></img> </div>
-          <div className="flicking-panel"><img className="imgProduct item current-item "  src={c9gvt3} ></img> </div>
-          <div className="flicking-panel title-special">Caixa de Ferramenta 9 gavetas</div>
-        </Flicking>
-        </a>
-      </div>
-    </div>
+    </Slider>
     <a href={`/NossoProduto`}  className="btn-more-products"><span >Mais Produtos</span></a>
-  </>
-};
-
+    </div>
+  );
+}

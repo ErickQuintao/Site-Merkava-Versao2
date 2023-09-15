@@ -31,8 +31,8 @@ function ProdutoInfo(){
                <div className={isDesVisible ? "descricao1" : "hidden"}>
                 <p>
                 <strong>   Dimensões da caixa de 7 gavetas<br/></strong> 
-30 x 22 x 50 ou 60  cm de comprimento dimensões útil do produto <br/><br/><br/>
-Disponível nas cores preto laranja cinza azul amarelo vermelho verde<br/><br/><br/>
+30 x 22 x 50 ou 60  cm de comprimento dimensões útil do produto <br/><br/>
+Disponível nas cores preto laranja cinza azul amarelo vermelho verde<br/><br/>
 1 ANO DE GARANTIA<br/><br/><br/>
                 </p>
                 <div className="linha6"></div>

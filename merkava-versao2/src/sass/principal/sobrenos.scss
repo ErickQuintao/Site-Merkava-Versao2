@@ -140,6 +140,7 @@
 	margin-left: 20px;
 	color: white;
 	font-size: 20px;
+	text-align: justify;
 }
 .icon-fim{
 	position: relative;
@@ -149,7 +150,7 @@
 .fac{
 	left: 40px;
 	background: white;
-	border: none;
+	border: 1px solid white;
 	border-radius: 100px;
 	top: 8px;
 		background-color: #3b5998;
@@ -162,14 +163,14 @@
 	border-radius: 100px;
 	background: linear-gradient(45deg,#405DE6,#5851DB,#833AB4,#C13584,
 	#E1306C,#FD1D1D);
+	border: 1px solid white;
 }
-.you{
+.tik{
 	left: 160px;
 	bottom: 65px;
 	background-color: white;
 	border-radius: 50%;
-	background-color: #FF0000;
-
+    border: 1px solid white;
 }
 
 .iconS{
@@ -190,7 +191,7 @@
 .pS{
 	width: 330px;
 	bottom: 100px;
-	text-align: left;
+	text-align: justify;
 	left: 10px;
 }
 .iconS{
@@ -200,8 +201,11 @@
 .ins{
 	bottom: 28px;
 }
-.you{
+.tik{
 	bottom: 65px;
+}
+.titleS1{
+	left: -50px;
 }
 .titleS2{
 	position: relative;

@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 
 import '../../../css/style.css'
-import img0Cf7 from '../../../fotos/caixaVermelha5.jpeg';
-import img1Cf7 from '../../../fotos/caixaVermelho3.jpeg';
-import img2Cf7 from '../../../fotos/caixaVermelho4.jpeg';
-import img3Cf7 from '../../../fotos/cf-7gvt.jpeg';
+import img0Cf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.28.00 (1).jpeg';
+import img1Cf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.27.59.jpeg';
+import img2Cf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.28.01 (1).jpeg';
+import img3Cf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.28.01.jpeg';
 import whatsButton from "../../../fotos/whatsapp.png";
 import {
 

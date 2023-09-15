@@ -2,9 +2,9 @@ import React from 'react';
 import '../../../css/style.css';
 import facebook from  '../../../fotos/facebook.png';
 import insta from '../../../fotos/instagram.png';
-import you from '../../../fotos/youtube.png';
-import imgCf9 from '../../../fotos/cf-9gvt.jpg';
-import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
+import imgTik from '../../../fotos/tik-tok.png';
+import imgCf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.24.36.jpeg';
+import imgCf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.27.59.jpeg';
 import  imgCf5  from "../../../fotos/cf-5gvt.jpeg";
 import cf3gvt from '../../../fotos/cf-3-gvt.jpeg';
 
@@ -35,14 +35,14 @@ parceiros da empresa e assim como
       é ser uma das empresas top 10 
       na pesquisa por ferramentas
        auxiliares do Brasil.</p>
-    <a href="" className="iconS">
+    <a href="https://www.facebook.com/regis.quintao.7?mibextid=b06tZ0" className="iconS">
         <img src={facebook} className="icon-fim fac"/>
         </a>
-    <a href="" className="iconS">
+    <a href={`/`} className="iconS">
         <img src={insta} className="icon-fim ins"/>
         </a>
-    <a href=""className="iconS">
-        <img src={you} className="icon-fim  you"/>
+    <a href="https://www.tiktok.com/@ferramentasmerkava" target="_blank"   className="iconS">
+        <img src={imgTik} className="icon-fim  tik"/>
         </a>
      
     <h2 className="titleS titleS2">PROMOÇÃO</h2>

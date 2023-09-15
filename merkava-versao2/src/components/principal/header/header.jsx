@@ -3,11 +3,11 @@ import '../../../css/style.css'
 import { exibirPesq, ocultarPesq, filtrarItens } from './pesquisa'; // Import the necessary functions from './pesquisa' file
 import imgFace from '../../../fotos/facebook.png';
 import imgInsta from '../../../fotos/instagram.png';
-import imgYou from '../../../fotos/youtube.png';
+import imgTik from '../../../fotos/tik-tok.png';
 import imgPesq from '../../../fotos/pesquisa.png';
 import imgCf5 from '../../../fotos/cf-5gvt.jpeg';
-import imgCf7 from '../../../fotos/cf-7gvt.jpeg';
-import imgCf9 from '../../../fotos/cf-9gvt.jpg';
+import imgCf7 from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.27.59.jpeg';
+import imgCf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.24.36.jpeg';
 import imgCf3 from '../../../fotos/cf-3-gvt.jpeg';
 import logo from '../../../fotos/logo-fm.jpeg';
 import whatsapp from '../../../fotos/icons8-whatsapp.gif';
@@ -18,9 +18,9 @@ function Header() {
         <div className="header-princip">
           <div className="divulgacao">
             <p id="pd">FERRAMENTAS EXTREMAMENTE REFORÇADA DE ALTA RESISTÊNCIA E DURABILIDADE</p>
-            <a href={`/`} className="iconY"><img src={imgFace} className="icon-fac" alt="Facebook" /></a>
-            <a href={`/`} className="iconY"><img src={imgInsta} className="icon-ins"/></a>
-            <a href={`/`} className="iconY"><img src={imgYou}className="icon-you" alt="YouTube" /></a>
+            <a href="https://www.facebook.com/regis.quintao.7?mibextid=b06tZ0"   target="_blank" className="iconY"><img src={imgFace} className="icon-fac" alt="Facebook" /></a>
+            <a href={`/`}   target="_blank" className="iconY"><img src={imgInsta} className="icon-ins"/></a>
+            <a href="https://www.tiktok.com/@ferramentasmerkava" target="_blank" className="iconY"><img src={imgTik}className="icon-tik" alt="YouTube" /></a>
           </div>
           <header id="header">
             <a href={`/`}><img src={logo} id="IconEmpresa" alt="Logo" /></a>
@@ -64,4 +64,3 @@ function Header() {
             );
             }
             export default Header;
-   

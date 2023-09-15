@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
 
 import '../../../css/style.css'
-import img0Cf9 from '../../../fotos/cf-9gvt.jpg';
-import img1Cf9 from '../../../fotos/cf-gvt9.jpg';
-import img2Cf9 from '../../../fotos/c-9gvt (2).jpeg';
-import img3Cf9 from '../../../fotos/c-9gvt(3.jpeg';
-import img4Cf9 from '../../../fotos/c-9gvt.jpeg';
+import img0Cf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.24.36.jpeg';
+import img1Cf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.24.37.jpeg';
+import img2Cf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.25.47.jpeg';
+import img3Cf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.25.48.jpeg';
+import img4Cf9 from '../../../fotos/9-gvts/WhatsApp Image 2023-09-11 at 19.45.03.jpeg';
 import whatsButton from "../../../fotos/whatsapp.png";
 import {
 

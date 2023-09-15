@@ -17,7 +17,7 @@
         margin-right: 20px;
     }
     div{
-        bottom: 20%;
+        bottom: 17%;
         margin-left: 3%;
     }
 }
@@ -28,7 +28,7 @@ h3{
 	font-family: "Segoe UI";
 	font-weight: 700;
 	color: gray;
-    bottom: 45%;
+    bottom: 72%;
 }
 .a{
     position: relative;
@@ -41,7 +41,9 @@ h3{
 	 &hover{
         color: $color-primary;
     }
-    bottom: 45%;
+    bottom: 72%;
+    cursor: pointer black;
+    z-index: 9990;
 }
 @media (min-width:270px) and  (max-width: 550px){
     .order{

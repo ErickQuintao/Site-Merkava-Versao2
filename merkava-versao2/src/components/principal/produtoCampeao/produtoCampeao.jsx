@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../../css/style.css';
-import cVermelho from '../../../fotos/caixaVermelho3.jpeg';
+import cVermelho from '../../../fotos/7-gvts/WhatsApp Image 2023-09-11 at 19.28.01.jpeg';
 function ProdutoCampeao(){
 return(
 

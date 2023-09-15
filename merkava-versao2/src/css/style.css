@@ -37,7 +37,7 @@
   height: 30px;
 }
 
-.icon-you {
+.icon-tik {
   position: absolute;
   width: 27px;
   height: 27px;
@@ -46,9 +46,8 @@
   border: white 2px solid;
   border-radius: 15px;
   background: white;
-  background-color: #FF0000;
 }
-.icon-you:hover {
+.icon-tik:hover {
   width: 30px;
   height: 30px;
 }
@@ -237,9 +236,9 @@
   }
   .icon-fac {
     left: 20%;
-    bottom: 23px;
+    bottom: 22px;
   }
-  .icon-you {
+  .icon-tik {
     left: 76%;
     bottom: 10px;
   }
@@ -248,39 +247,47 @@
     bottom: 10px;
   }
   #IconEmpresa {
-    width: 100px;
-    height: 40px;
+    width: 190px;
+    height: 130px;
     left: -3px;
+    bottom: 15px;
+    z-index: 9968;
   }
   #Home {
-    left: 30%;
-    top: -95px;
-    font-size: 13px;
+    left: 43%;
+    top: -85px;
+    font-size: 15px;
+    z-index: 9999;
   }
   #Hprod {
-    left: 20%;
-    top: -72px;
-    font-size: 13px;
+    left: 31%;
+    top: -61px;
+    font-size: 15px;
+    z-index: 9997;
   }
   #HprodP {
-    left: 6%;
-    top: -95px;
-    font-size: 13px;
+    left: -5%;
+    top: -34px;
+    font-size: 15px;
+    z-index: 9996;
   }
   .slide {
     bottom: -40px !important;
   }
   #HprodF {
-    left: -17%;
-    top: -53px;
+    left: 1%;
+    top: -30px;
+    z-index: 9999;
   }
   #HprodF img {
-    width: 37px;
-    height: 37px;
+    width: 50px;
+    height: 50px;
   }
   #Hpes img {
-    left: -15%;
-    top: -60px;
+    left: 20%;
+    top: -40px;
+    width: 30px;
+    height: 30px;
   }
   .pesq {
     top: -30px;
@@ -335,8 +342,8 @@
   }
 }
 .imgProduct {
-  width: 250px;
-  height: 250px;
+  width: 410px;
+  height: 390px;
 }
 
 .card-btn {
@@ -347,6 +354,11 @@
 
 .flicking-panel {
   width: 250px;
+  height: 450px;
+  margin-left: 10px;
+}
+.flicking-panel div img {
+  width: 250px;
   height: 250px;
 }
 
@@ -355,18 +367,13 @@
   top: 10px;
   margin-bottom: 100px;
   left: 15%;
-  display: flex;
-  flex-direction: row;
+  width: 100%;
+  height: 400px;
 }
 
-.flicking-panel {
-  margin-left: 10px;
-  height: 300px;
-}
-
-.flicking-panel div img {
-  width: 250px;
-  height: 250px;
+.slick-dots {
+  position: relative;
+  top: 500px;
 }
 
 .title-special {
@@ -389,10 +396,11 @@
   color: white;
   text-decoration: none;
   position: relative;
-  bottom: 100px;
+  bottom: 50px;
+  left: 30px;
 }
 .btn-more-products:hover {
-  bottom: 90px;
+  bottom: 60px;
   font-size: 25px;
   outline: none;
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
@@ -402,10 +410,18 @@
   border: 1px solid black;
 }
 
-@media (min-width: 270px) and (max-width: 550px) {
-  .container {
-    display: flex;
-    flex-direction: column;
+@media (min-width: 270px) and (max-width: 750px) {
+  .flicking-panel {
+    height: 500px;
+  }
+  .imgProduct {
+    width: 370px;
+    height: 470px;
+    position: relative;
+    right: 50px;
+  }
+  .btn-more-products {
+    left: 0px;
   }
 }
 .best-selling {
@@ -438,7 +454,7 @@
 .title-best-selling {
   position: relative;
   left: 22%;
-  bottom: 50%;
+  bottom: 80%;
   font-weight: 700;
 }
 
@@ -447,7 +463,7 @@
   width: 720px;
   height: 300px;
   left: 45%;
-  bottom: 52%;
+  bottom: 82%;
   font-weight: 500;
   font-size: 20px;
 }
@@ -456,7 +472,7 @@
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
   position: relative;
   left: 22%;
-  bottom: 57%;
+  bottom: 83%;
   margin: auto;
   padding: 10px;
   width: 25%;
@@ -476,7 +492,7 @@
   text-decoration: none;
 }
 .btn-best-selling:hover {
-  bottom: 58%;
+  bottom: 88%;
   outline: none;
   color: white !important;
   box-shadow: 7px 7px 4px rgba(0, 0, 0, 0.3);
@@ -492,28 +508,29 @@
     font-size: 17px;
   }
   .img-best-selling {
-    right: 90px;
-    width: 175%;
+    right: 75px;
+    width: 150%;
   }
   .title-best-selling {
     font-size: 16px;
     left: 0%;
-    bottom: 50%;
+    bottom: 93%;
   }
   .text-best-selling {
-    left: 3%;
+    left: 8%;
     width: 340px;
     color: white;
-    bottom: 50%;
+    bottom: 93%;
     font-weight: 500;
     font-size: 17px;
+    text-align: justify;
   }
   .btn-best-selling {
-    bottom: 42%;
+    bottom: 82%;
     left: 1%;
   }
   .btn-best-selling:hover {
-    bottom: 43%;
+    bottom: 85%;
   }
 }
 .depoimentos {
@@ -808,6 +825,7 @@
   margin-left: 20px;
   color: white;
   font-size: 20px;
+  text-align: justify;
 }
 
 .icon-fim {
@@ -819,7 +837,7 @@
 .fac {
   left: 40px;
   background: white;
-  border: none;
+  border: 1px solid white;
   border-radius: 100px;
   top: 8px;
   background-color: #3b5998;
@@ -831,14 +849,15 @@
   background-color: white;
   border-radius: 100px;
   background: linear-gradient(45deg, #405DE6, #5851DB, #833AB4, #C13584, #E1306C, #FD1D1D);
+  border: 1px solid white;
 }
 
-.you {
+.tik {
   left: 160px;
   bottom: 65px;
   background-color: white;
   border-radius: 50%;
-  background-color: #FF0000;
+  border: 1px solid white;
 }
 
 .iconS {
@@ -859,7 +878,7 @@
   .pS {
     width: 330px;
     bottom: 100px;
-    text-align: left;
+    text-align: justify;
     left: 10px;
   }
   .iconS {
@@ -869,8 +888,11 @@
   .ins {
     bottom: 28px;
   }
-  .you {
+  .tik {
     bottom: 65px;
+  }
+  .titleS1 {
+    left: -50px;
   }
   .titleS2 {
     position: relative;
@@ -971,6 +993,9 @@
 }
 
 @media (min-width: 270px) and (max-width: 550px) {
+  .catalogo {
+    top: 90px;
+  }
   .cat-ini {
     right: 70px;
     font-size: 13px;
@@ -1038,11 +1063,11 @@
   .h2-cat {
     left: 26%;
     width: 300px;
-    top: 2%;
+    top: 80%;
   }
   .catpro {
     left: 70px;
-    top: 1%;
+    top: 80%;
   }
   .catpro:hover {
     top: 0%;
@@ -1072,7 +1097,7 @@
   margin-right: 20px;
 }
 .order div {
-  bottom: 20%;
+  bottom: 17%;
   margin-left: 3%;
 }
 
@@ -1083,7 +1108,7 @@ h3 {
   font-family: "Segoe UI";
   font-weight: 700;
   color: gray;
-  bottom: 45%;
+  bottom: 72%;
 }
 
 .a {
@@ -1094,7 +1119,9 @@ h3 {
   font-family: "Segoe UI";
   font-weight: 700;
   font-size: 16PX;
-  bottom: 45%;
+  bottom: 72%;
+  cursor: pointer black;
+  z-index: 9990;
 }
 .ahover {
   color: green;
@@ -1183,8 +1210,8 @@ h3 {
 
 .prod-h1 {
   position: relative;
-  left: 290px;
-  bottom: 640px;
+  left: 310px;
+  bottom: 690px;
   font-weight: 700;
   font-size: 35px;
   font-family: "Segoe UI";
@@ -1262,7 +1289,7 @@ select {
   position: relative;
   border: 1px solid lightgray;
   width: 700px;
-  right: 100px;
+  right: 200px;
 }
 
 @media (min-width: 270px) and (max-width: 550px) {
@@ -1275,6 +1302,7 @@ select {
   .imgp {
     left: 5px;
     height: 500px;
+    top: 31px;
   }
   .carousel div {
     width: 380px;
@@ -1284,7 +1312,7 @@ select {
     display: flex;
     max-width: 82px;
     right: -1px;
-    bottom: -20px;
+    bottom: -50px;
     flex-direction: row-reverse;
     margin-left: 10px;
   }
@@ -1294,61 +1322,61 @@ select {
   }
   .btn-2 {
     left: 90px;
-    bottom: 57px;
+    bottom: 27px;
   }
   .btn-3 {
     left: 180px;
-    bottom: 135px;
+    bottom: 105px;
   }
   .btn-4 {
     left: 270px;
-    bottom: 210px;
+    bottom: 180px;
   }
   .btn-6 {
     left: -20px;
   }
   .btn-7 {
     left: 55px;
-    bottom: 58px;
+    bottom: 27px;
   }
   .btn-8 {
     left: 130px;
-    bottom: 135px;
+    bottom: 105px;
   }
   .btn-9 {
     left: 205px;
-    bottom: 213px;
+    bottom: 182px;
   }
   .btn-10 {
     left: 280px;
-    bottom: 290px;
+    bottom: 259px;
   }
   .prod-h1 {
     left: 10px;
     font-size: 20px;
-    bottom: -100px;
+    bottom: -170px;
   }
   #txt-cf5 {
     position: relative;
     left: 30px;
-    bottom: -90px;
+    bottom: -150px;
     width: 330px;
   }
   label {
     left: -30px;
-    top: 80px;
+    top: 150px;
   }
   select {
     left: -10px;
     width: 120px;
     height: 30px;
-    top: 80px;
+    top: 150px;
   }
   .whatsapp {
     width: 200px;
     height: 50px;
     left: 100px;
-    top: 100px;
+    top: 190px;
   }
   .p-what {
     left: 20px;
@@ -1362,7 +1390,8 @@ select {
     top: 8px;
   }
   .imgEspecial {
-    right: 180px;
+    width: 100%;
+    right: 0px;
     border: none;
   }
 }
@@ -1516,7 +1545,7 @@ li {
     overflow-x: hidden !important;
   }
   .produto-infor {
-    top: 400px;
+    top: 500px;
     height: 200px;
   }
   .linha1 {
@@ -1684,10 +1713,10 @@ html {
 
 @media (min-width: 270px) and (max-width: 550px) {
   .container-form {
-    top: 50px;
+    top: 140px;
     width: 380px;
     left: 0px;
-    height: 1900px;
+    height: 2100px;
   }
   .header-form h1 {
     bottom: 620px;
@@ -1697,7 +1726,7 @@ html {
   .loop-form {
     width: 300px;
     right: 30px;
-    top: 1240px;
+    top: 1440px;
   }
   .imgs-loop {
     width: 375px;
@@ -1716,7 +1745,7 @@ html {
   .divs-form div select {
     width: 200px;
     position: relative;
-    top: 100px;
+    top: 170px;
     display: flex;
     justify-content: flex-start;
     z-index: 9999;
@@ -1726,7 +1755,7 @@ html {
     width: 100px;
   }
   .divs-form div input {
-    bottom: -100px;
+    bottom: -170px;
     left: 20px;
     display: flex;
     justify-content: flex-start;
@@ -1738,7 +1767,7 @@ html {
     bottom: 39%;
   }
   .enviar {
-    bottom: 5%;
+    bottom: -4%;
     left: 14%;
   }
 }

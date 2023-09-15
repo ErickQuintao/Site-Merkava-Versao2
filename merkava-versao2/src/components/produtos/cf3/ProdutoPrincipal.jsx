@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import '../../../css/style.css'
-import img0Cf5 from '../../../fotos/Bancada-900mm-4gvt.png';
+import img0Cf5 from '../../../fotos/cf-3-gvt.jpeg';
 
 import whatsButton from "../../../fotos/whatsapp.png";
 import {

@@ -130,10 +130,10 @@ html{
 }
 @media (min-width:270px) and  (max-width: 550px){
     .container-form{
-        top: 50px;
+        top: 140px;
         width: 380px;
         left: 0px;
-        height: 1900px;
+        height: 2100px;
     }
     .header-form{
         h1{
@@ -145,7 +145,7 @@ html{
 .loop-form{
     width: 300px;
     right: 30px;
-    top: 1240px;
+    top: 1440px;
 }
 .imgs-loop{
     width: 375px;
@@ -162,7 +162,7 @@ html{
         select{
             width: 200px;
             position: relative;
-            top: 100px;
+            top: 170px;
             display: flex;
             justify-content: flex-start;
             z-index: 9999;
@@ -172,7 +172,7 @@ html{
             }
         }
         input{
-            bottom: -100px;
+            bottom: -170px;
             left: 20px;
             display: flex;
             justify-content: flex-start;
@@ -186,7 +186,7 @@ html{
     bottom: 39%;
 }
 .enviar{
-    bottom: 5%;
+    bottom: -4%;
     left: 14%;
 }
 }
