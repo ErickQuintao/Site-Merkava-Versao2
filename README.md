@@ -10,7 +10,7 @@
         <li>BOOTSTRAP</li>
         <li>REACT-FLICKING</li>
           </ul>
-          <p align="center">Este projeto e uma melhoria da versão dois que estou criando o readme que não tinha ,adaptavel para celulares e diferentes telas de monitores e televisão.</p>
+          <p align="center">Este projeto e uma melhoria da versão dois que estou criando o readme que não tinha ,adaptavel para celulares e diferentes telas de monitores e televisão.   OBS: DENTRO DA PASTA MERKAVA-2 ,TEM UMA PASTA FOTO E VIDEO ,LA TEM UM VIDEO DO SITE.</p>
     <img src="./merkava-versao2/fotos-e-videos-do-site/one.png">
     <img src="./merkava-versao2/fotos-e-videos-do-site/two.png">
     <img src="./merkava-versao2/fotos-e-videos-do-site/three.png">
